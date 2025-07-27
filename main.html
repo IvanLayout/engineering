@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Переключение IE в последнию версию, на случай если в настройках пользователя стоит меньшая -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Русептик</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Традиционная иконка сайта, размер 16x16, прозрачность поддерживается. Рекомендуемый формат: .ico или .png -->
+		<link rel="shortcut icon" href="favicon.ico">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/ion.rangeSlider.css">
+		<link rel="stylesheet" href="css/dropzone.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1599.css" media="(max-width: 1599px)">
+		<link rel="stylesheet" href="css/response_1319.css" media="(max-width: 1319px)">
+		<link rel="stylesheet" href="css/response_1199.css" media="(max-width: 1199px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="(max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="(max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<!-- Шапка -->
+				<header class="header">
+					<div class="cont">
+						<div class="header__top _flex">
+							<div class="header__list _flex">
+								<div class="header__list-item">
+									<a href="/">Отзывы</a>
+								</div>
+								<div class="header__list-item">
+									<a href="/">Реквизиты</a>
+								</div>
+								<div class="header__list-item">
+									<a href="/">Вакансии</a>
+								</div>
+								<div class="header__list-item">
+									<a href="/">Политика конфиденциальности</a>
+								</div>
+							</div>
+	
+							<div class="header__box _flex">
+								<div class="header__time">Время работы: Пн-Вс, 9:00 – 21:00</div>
+	
+								<button type="button" data-content="#write_us" class="header__write-btn modal-btn">Напишите нам</button>
+	
+								<button type="button" data-content="#modal-addres" class="header__adres-btn modal-btn">
+									<svg class="header__adres-marker">
+										<use xlink:href="images/sprite.svg#marker"></use>
+									</svg>
+									Москва
+								</button>
+							</div>
+						</div>
+	
+						<div class="header__info _flex">
+							<div class="header__logo">
+								<a href="/">
+									<img src="images/logo.svg" alt="">
+								</a>
+							</div>
+
+							<button type="button" class="header-catalog__open btn-light">
+								<span></span>
+								<span></span>
+								Каталог
+							</button>
+
+							<div class="nav-menu _flex">
+								<div class="nav-menu__item">
+									<a href="/">О компании</a>
+								</div>
+								<div class="nav-menu__item">
+									<a href="/">Услуги</a>
+								</div>
+								<div class="nav-menu__item">
+									<a href="/">Портфолио</a>
+								</div>
+								<div class="nav-menu__item">
+									<a href="/">Акции</a>
+								</div>
+								<div class="nav-menu__item">
+									<a href="/">Контакты</a>
+								</div>
+							</div>
+
+							<div class="header__socials _flex">
+								<a href="/" target="_blank" class="header__socials-link">
+									<img data-src="images/ic_soc3.svg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+								<a href="/" target="_blank" class="header__socials-link">
+									<img data-src="images/ic_soc4.svg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+
+							<div class="header__phone">
+								<a href="tel:+74997046510">+7 (495) 128-73-71</a>
+							</div>
+
+							<button type="button" data-content="#callback" class="header__callback-btn btn-green modal-btn">Заказать звонок</button>
+						</div>
+					</div>
+				</header>
+
+				<!-- End Шапка -->
+
+
+				<section class="first-section">
+					<div class="first-section__img">
+						<img data-src="images/abs_img.png" src="images/img_plug.png" alt="" class="lazyload">
+					</div>
+
+					<div class="first-section__banner-img">
+						<img data-src="images/tmp/banner_house.png" src="images/img_plug.png" alt="" class="lazyload">
+					</div>
+
+					<div class="cont">
+						<div class="first-section__info">
+							<div class="first-section__top">Работаем по всей Московской области!</div>
+
+							<div class="text-block">
+								<h1>Водоснабжение, канализация и отопление для частного дома</h1>
+
+								<p>Инженерные решения с учетом особенностей участка, дома и ваших потребностей</p>
+							</div>
+
+							<form action="" class="form first-section__form">
+								<div class="first-section__form-flex _flex">
+									<div class="form__field">
+										<input type="phone" value="" placeholder="Телефон / WhatsApp / Telegram" class="form__input form__input_white">
+									</div>
+
+									<button type="submit" class="form__submit-btn btn-green">Рассчитать стоимость</button>
+								</div>
+
+								<div class="form__agree">Согласие на <a href="/">обработку персональных данных</a></div>
+							</form>
+						</div>
+
+						<div class="first-section__items _flex">
+							<div class="first-section__item">
+								<div class="first-section__icon">
+									<svg>
+										<use xlink:href="images/sprite.svg#handshake"></use>
+									</svg>
+
+									<!-- <img data-src="images/ic_icon_first_section1.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
+								</div>
+
+								<div class="first-section__box">
+									<div class="first-section__name">Без аванса</div>
+
+									<div class="first-section__desc">расчет по факту выполненных работ</div>
+								</div>
+							</div>
+
+							<div class="first-section__item">
+								<div class="first-section__icon">
+									<svg>
+										<use xlink:href="images/sprite.svg#check"></use>
+									</svg>
+
+									<!-- <img data-src="images/ic_icon_first_section2.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
+								</div>
+
+								<div class="first-section__box">
+									<div class="first-section__name">Гарантия</div>
+
+									<div class="first-section__desc">на оборудование и монтаж до 3 лет</div>
+								</div>
+							</div>
+
+							<div class="first-section__item first-section__item-green">
+								<div class="first-section__icon">
+									<svg>
+										<use xlink:href="images/sprite.svg#calendar"></use>
+									</svg>
+
+									<!-- <img data-src="images/ic_icon_first_section3.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
+								</div>
+
+								<div class="first-section__box">
+									<div class="first-section__name">Монтаж за 1 день</div>
+
+									<div class="first-section__desc">и обслуживание после установки</div>
+								</div>
+							</div>
+
+							<div class="first-section__item">
+								<div class="first-section__icon">
+									<svg>
+										<use xlink:href="images/sprite.svg#user"></use>
+									</svg>
+
+									<!-- <img data-src="images/ic_icon_first_section4.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
+								</div>
+
+								<div class="first-section__box">
+									<div class="first-section__name">Опыт 15 лет</div>
+
+									<div class="first-section__desc">профессиональные монтажники с опытом</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="communications _marg">
+					<div class="cont">
+						<div class="main-title">Инженерные коммуникации для вашего комфорта за городом</div>
+
+						<div class="communications__info">
+							Создаём комплексные решения для водоснабжения, канализации и отопления в частных домах. Наши специалисты работают как на этапе строительства, так и с уже обжитыми домами и дачами, обеспечивая комфорт и безопасность инженерных систем для вас и вашей семьи.
+						</div>
+
+						<div class="communications__items _flex">
+							<div class="communications__item">
+								<div class="communications__img">
+									<img data-src="images/tmp/communications__img1.png" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="communications__top">
+									<div class="communications__name">Септики</div>
+
+									<div class="communications__desc">
+										Устанавливаем системы очистки стоков от проверенных временем производителей — Топас, Аквалос, Эко-Гранд. Подбираем оптимальный вариант под ваши потребности и особенности участка. Выполняем монтаж септиков за 1 день.
+									</div>
+								</div>
+
+								<div class="communications__link">
+									<a href="/" class="btn-green">Оставить заявку</a>
+								</div>
+							</div>
+							
+							<div class="communications__item">
+								<div class="communications__img">
+									<img data-src="images/tmp/communications__img2.png" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="communications__top">
+									<div class="communications__name">Водоснабжение из колодца</div>
+
+									<div class="communications__desc">
+										Недорогое, но эффективное решение для дачи с сезонным или постоянным проживанием. В стоимость обустройства включен  погружной насос от надежного бренда — Grundfos, DAB, Belamos или Джилекс.
+									</div>
+								</div>
+
+								<div class="communications__link">
+									<a href="/" class="btn-green">Оставить заявку</a>
+								</div>
+							</div>
+
+							<div class="communications__item">
+								<div class="communications__img">
+									<img data-src="images/tmp/communications__img3.png" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="communications__top">
+									<div class="communications__name">Водоснабжение из скважины</div>
+
+									<div class="communications__desc">
+										В вашем доме будет стабильный напор воды как в городской квартире. При обустройстве скважин устанавливаем адаптеры и пластиковые кессоны, которые защищают скважины от промерзания и попадания грунтовых вод.
+									</div>
+								</div>
+
+								<div class="communications__link">
+									<a href="/" class="btn-green">Оставить заявку</a>
+								</div>
+							</div>
+
+							<div class="communications__item">
+								<div class="communications__img">
+									<img data-src="images/tmp/communications__img4.png" src="images/img_plug.png" alt="" class="lazyload">
+								</div>
+
+								<div class="communications__top">
+									<div class="communications__name">Отопление</div>
+
+									<div class="communications__desc">
+										Создаем комфортные условия для проживания в загородном доме в холодное время года. Организуем систему отопления: котельная, теплые полы, радиаторы.
+									</div>
+								</div>
+
+								<div class="communications__link">
+									<a href="/" class="btn-green">Оставить заявку</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="stocks _marg">
+					<div class="cont">
+						<div class="main-title">Акции: успейте воспользоваться выгодными предложениями</div>
+					</div>
+				</section>
+
+
+				<section class="advantages _marg">
+					<div class="cont">
+						<div class="main-title">Комплексные решения, обеспечивающие надёжную, безопасную, и энергоэффективную работу всех коммуникаций</div>
+					</div>
+				</section>
+
+				<section class="portfolio _marg">
+					<div class="cont">
+						<div class="main-title">Проекты, реализованные нашей командой</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer class="footer">
+				
+			</footer>
+		</div>
+
+
+		<div id="modal-addres" class="modal modal-addres">
+			<div class="modal__title">Выберите свой город</div>
+
+			<form action="" class="modal-search">
+				<input type="text" value="" placeholder="Введите название своего города" class="modal-search__input">
+			</form>
+
+			<div class="modal-cities">
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">В</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							<a href="/">Воронеж</a>
+						</div>
+						<div class="modal-cities__link">
+							<a href="/">Волгоград</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">Е</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Екатеринбург</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">К</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Казань</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Краснодар</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">М</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Москва</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">Н</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Нижний Новгород</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Новосибирск</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">П</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Пермь</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">Р</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Ростов-на-Дону</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">С</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Саратов</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Самара</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Санкт-Петербург</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">Т</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Тула</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Тюмень</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">У</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Уфа</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">П</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Пермь</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">Р</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Ростов-на-Дону</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">С</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Саратов</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Самара</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Санкт-Петербург</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">Т</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Тула</a>
+						</div>
+						<div class="modal-cities__link">
+							 <a href="/">Тюмень</a>
+						</div>
+					</div>
+				</div>
+				<div class="modal-cities__item">
+					<div class="modal-cities__title">У</div>
+
+					<div class="modal-cities__links">
+						<div class="modal-cities__link">
+							 <a href="/">Уфа</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="supports-error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/inputmask.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/jquery.rating.pack.js"></script>
+		<script src="js/dropzone.min.js"></script>
+
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
