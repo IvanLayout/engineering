@@ -2612,7 +2612,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
     right: 0;
     bottom: 0;
 
-    display: block;
+    display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: flex-end;
+	flex-wrap: wrap;
 
     height: 100%;
 }
@@ -2631,7 +2635,12 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
     flex: 1 0 auto;
 
-    max-width: 455px;
+    max-width: 415px;
+}
+
+.communications__top-small
+{
+	width: 380px;
 }
 
 .communications__name
