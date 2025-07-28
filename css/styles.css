@@ -487,6 +487,11 @@ button
 }
 
 
+.header__logo
+{
+	max-width: 210px;
+}
+
 .header__logo a,
 .header__logo img
 {
@@ -1966,18 +1971,13 @@ input[type=checkbox]:checked + .checkbox-btn__text
     color: #051824;
     font-size: 40px;
     font-weight: 500;
-    line-height: 1.45;
+    line-height: 1.2;
 }
 
 .main-title__marg-right
 {
 	margin-right: 180px;
 }
-
-/* .main-subtitle
-{
-    margin-top: 24px;
-} */
 
 
 /*--------------
@@ -2560,7 +2560,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 .first-section__name
 {
-    font-size: 20px;
     font-weight: 500;
 }
 
@@ -2574,6 +2573,12 @@ input[type=checkbox]:checked + .checkbox-btn__text
 /*------------
     communications
 ------------*/
+
+.communications__info
+{
+	margin-top: 25px;
+	max-width: 990px;
+}
 
 .communications__desc
 {
@@ -2619,6 +2624,16 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	flex-wrap: wrap;
 
     height: 100%;
+}
+
+.communications__img picture
+{
+    /* position: relative;
+
+    display: block;
+
+    min-height: 100%;
+    padding-bottom: 27.986%; */
 }
 
 .communications__img img
@@ -2907,7 +2922,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	color: #FFA929;
 	white-space: nowrap;
-	margin-right: 3px;
+	margin-right: 5px;
 }
 
 .reviews__icon
@@ -2932,7 +2947,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .reviews__desc
 {
 	margin-top: 10px;
-	font-size: 20px;
 	line-height: 1.5;
 }
 
