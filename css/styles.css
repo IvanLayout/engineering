@@ -713,12 +713,6 @@ button
 	display: none;
 }
 
-.mob-menu
-{
-	display: block;
-	width: 100%;
-}
-
 .mob-menu__item + .mob-menu__item
 {
 	border-top: 1px solid #ECF0F8;
@@ -764,6 +758,18 @@ button
 
     max-width: 100%;
     max-height: 100%;
+}
+
+
+.fix-btns
+{
+	display: none;
+}
+
+
+.mini-overlay
+{
+    display: none;
 }
 /*------------
     BTNS
@@ -3818,15 +3824,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
     width: 385px;
 }
 
-.footer__logo
-{
-	height: 82px;
-}
-
 .footer__logo img
 {
 	display: block;
 	max-height: 100%;
+	max-width: 100%;
 }
 
 .footer__box
