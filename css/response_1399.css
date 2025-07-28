@@ -5,13 +5,20 @@
 		font-size: 18px;
 	}
 
+	.form .form__input
+	{
+		font-size: 19px;
+		height: 54px;
+	}
+
 	.text-block h1, 
 	.text-block .title
 	{
 		font-size: 46px;
 	}
 
-	.btn-green
+	.btn-green,
+	.btn-light
 	{
 		font-size: 19px;
 		line-height: 54px;
@@ -20,6 +27,11 @@
 	._marg 
 	{
 		margin-top: 60px;
+	}
+
+	._pad
+	{
+		padding: 60px 0;
 	}
 
 	
@@ -100,13 +112,13 @@
 
 	.first-section-form__input
 	{
-		font-size: 20px;
-		height: 60px;
+		font-size: 19px;
+		height: 54px;
 	}
 
 	.first-section-form__submit-btn
 	{
-		line-height: 60px;
+		line-height: 54px;
 	}
 
 	.first-section__items
@@ -244,5 +256,16 @@
 	.main-form
 	{
 		border-radius: 24px;
+	}
+
+
+	.footer
+	{
+		padding-top: 60px;
+	}
+
+	.footer__info
+	{
+		padding-top: 40px;
 	}
 }

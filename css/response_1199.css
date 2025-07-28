@@ -1,3 +1,179 @@
 @media (max-width: 1199px)
 {
+	body
+	{
+		font-size: 16px;
+	}
+
+	.form__line
+	{
+		margin-bottom: 20px;
+	}
+
+	.form .form__input
+	{
+		font-size: 16px;
+	}
+
+	.form__label
+	{
+		margin-bottom: 10px;
+	}
+
+	.form__submit-btn
+	{
+		margin-top: 10px;
+	}
+
+	.wrap-btn
+	{
+		margin-top: 30px;
+	}
+
+	.btn-green, 
+	.btn-light
+	{
+		font-size: 16px;
+	}
+
+	.main-title 
+	{
+		font-size: 30px;
+	}
+
+	
+	.header__top
+	{
+		font-size: 14px;
+	}
+
+	.header__list-item + .header__list-item 
+	{
+		margin-left: 15px;
+	}
+
+	.header__logo 
+	{
+		max-width: 140px;
+	}
+
+	.header-catalog__open span 
+	{
+		left: 12px;
+	}
+
+	.header-catalog__open.btn-light
+	{
+		padding-left: 30px;
+		font-size: 15px;
+	}
+
+	.header__socials-link + .header__socials-link 
+	{
+		margin-left: 5px;
+	}
+
+	.nav-menu__item
+	{
+		font-size: 15px;
+	}
+
+	.header__phone
+	{
+		font-size: 14px;
+	}
+
+	.header__callback-btn.btn-green 
+	{
+		font-size: 14px;
+		padding: 0 12px;
+	}
+
+
+	.first-section-form__input
+	{
+		font-size: 16px;
+	}
+
+
+	.advantages__icon
+	{
+		width: 64px;
+		height: 64px;
+	}
+
+	.advantages__name
+	{
+		font-size: 20px;
+	}
+
+
+	.reviews__top 
+	{
+		font-size: 22px;
+	}
+
+
+	.main-about__coll
+	{
+		padding-top: 60px;
+	}
+
+	.main-about__title
+	{
+		font-size: 32px;
+	}
+
+	.main-about__desc
+	{
+		font-size: 17px;
+	}
+
+
+	.brigadiers__name 
+	{
+		font-size: 20px;
+	}
+
+	.brigadiers__position
+	{
+		font-size: 17px;
+	}
+
+	.brigadiers__info
+	{
+		font-size: 16px;
+	}
+
+
+	.main-form
+	{
+		max-width: 460px;
+	}
+
+
+	.footer
+	{
+		font-size: 16px;
+	}
+
+	.footer__coll
+	{
+		width: 250px;
+	}
+
+	.footer__colr
+	{
+		width: calc(100% - 275px);
+	}
+
+	.footer__item + .footer__item
+	{
+		margin-top: 15px;
+	}
+
+	.footer__item
+	{
+		margin-top: 10px;
+	}
 }

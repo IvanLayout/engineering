@@ -109,6 +109,31 @@ $(() => {
 			navigation: {
 				nextEl: '.slider-button-next',
 				prevEl: '.slider-button-prev'
+			},breakpoints: {
+				'320': {
+					spaceBetween: 20,
+					slidesPerView: 'auto'
+				},
+				'480': {
+					spaceBetween: 20,
+					slidesPerView: 'auto'
+				},
+				'768': {
+					spaceBetween: 20,
+					slidesPerView: 2
+				},
+				'1024': {
+					spaceBetween: 20,
+					slidesPerView: 2,
+				},
+				'1025': {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				},
+				'1300': {
+					spaceBetween: 30,
+					slidesPerView: 3,
+				}
 			},
 			on: {
 				init: function (swiper) {
@@ -138,7 +163,32 @@ $(() => {
 			navigation: {
 				nextEl: '.slider-button-next',
 				prevEl: '.slider-button-prev'
-			}
+			},breakpoints: {
+				'320': {
+					spaceBetween: 20,
+					slidesPerView: 'auto'
+				},
+				'480': {
+					spaceBetween: 20,
+					slidesPerView: 'auto'
+				},
+				'768': {
+					spaceBetween: 20,
+					slidesPerView: 2,
+				},
+				'1024': {
+					spaceBetween: 20,
+					slidesPerView: 2,
+				},
+				'1025': {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				},
+				'1300': {
+					spaceBetween: 30,
+					slidesPerView: 3,
+				}
+			},
 		})
 	}
 

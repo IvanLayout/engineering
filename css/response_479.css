@@ -1,3 +1,187 @@
 @media (max-width: 479px)
 {
+	body 
+	{
+		font-size: 14px;
+	}
+
+
+	.form__submit-btn
+	{
+		margin-top: 0;
+	}
+
+
+	.btn-green, 
+	.btn-light
+	{
+		width: 100%;
+	}
+
+	.main-title
+	{
+		font-size: 24px;
+		letter-spacing: -.01em;
+	}
+
+
+	.slider-pagination._bot-abs
+	{
+		bottom: 20px;
+	}
+
+	.slider-pagination._bot
+	{
+		margin-top: 15px;
+	}
+
+	.slider-dot
+	{
+		height: 2px;
+		max-width: 24px;
+	}
+
+
+	.header-mob__logo
+	{
+		width: 132px;
+	}
+
+	.header-mob__phone
+	{
+		font-size: 13px;
+	}
+
+
+	.stocks__img span
+	{
+		padding-bottom: 64.11%;
+	}
+
+
+	.advantages__item
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.advantages__icon 
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.advantages__name
+	{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+
+	.reviews__item
+	{
+		padding: 20px;
+		min-height: 180px;
+	}
+
+	.reviews__top
+	{
+		font-size: 18px;
+	}
+
+	.reviews__icon 
+	{
+		width: 16px;
+		height: 16px;
+		margin-top: -1px;
+	}
+
+
+	.reviews__bot
+	{
+		font-size: 12px;
+		margin-top: 8px;
+	}
+
+
+	.main-about__title
+	{
+		font-size: 24px;
+	}
+
+	.main-about__desc
+	{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+	
+
+	.main-about__slider
+	{
+		padding: 0 116px;
+	}
+
+	.main-about__coll
+	{
+		padding: 35px 0;
+	}
+
+
+	.brigadiers__grid
+	{
+		margin-left: -15px;
+	}
+
+	.brigadiers__item 
+	{
+		width: calc(100% / 2 - 15px);
+		margin: 15px 0 0 15px;
+	}
+
+	.brigadiers__flex
+	{
+		margin-top: 13px;
+	}
+
+	.brigadiers__sticker
+	{
+		font-size: 9px;
+		padding: 0 7px;
+		line-height: 17px;
+	}
+
+	.brigadiers__position
+	{
+		font-size: 14px;
+		margin-left: 8px;
+	}
+
+	.brigadiers__info
+	{
+		font-size: 12px;
+	}
+
+
+	.brands__grid
+	{
+		margin-top: 10px;
+	}
+
+	.brands__brand 
+	{
+		width: calc(100% / 2 - 15px);
+		margin-top: 15px;
+	}
+
+
+	.footer__logo
+	{
+		width: 132px;
+	}
+
+	.footer__info,
+	.footer__copy
+	{
+		font-size: 10px;
+	}
 }

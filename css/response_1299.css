@@ -1,0 +1,188 @@
+@media (max-width: 1299px)
+{
+
+	.main-title
+	{
+		font-size: 34px;
+	}
+
+
+	.slider-button-prev._top, 
+	.slider-button-next._top
+	{
+		margin-top: -80px;
+	}
+
+	.header__top
+	{
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.header__list-item + .header__list-item
+	{
+		margin-left: 20px;
+	}
+
+	.header__time 
+	{
+		margin-right: 30px;
+	}
+
+	.header__logo 
+	{
+		max-width: 160px;
+	}
+
+	.header-catalog__open.btn-light 
+	{
+		font-size: 16px;
+		line-height: 45px;
+		padding-left: 35px;
+	}
+
+	.header-catalog__open span 
+	{
+		left: 14px;
+	}
+
+	.nav-menu__item 
+	{
+		font-size: 16px;
+	}
+
+	.nav-menu__item + .nav-menu__item 
+	{
+		margin-left: 10px;
+	}
+
+	.header__socials-link 
+	{
+		width: 40px;
+		height: 40px;
+	}
+
+	.header__phone 
+	{
+		font-size: 16px;
+	}
+
+	.header__callback-btn.btn-green 
+	{
+		font-size: 16px;
+		height: 45px;
+		line-height: 45px;
+	}
+
+
+	.stocks__slider
+	{
+		margin-top: 30px;
+	}
+
+
+	.advantages__slider
+	{
+		margin-top: 30px;
+	}
+
+
+	.portfolio__items
+	{
+		margin-top: 10px;
+		margin-left: -20px;
+	}
+
+	.portfolio__item 
+	{
+		width: calc(100% / 3 - 20px);
+		margin: 20px 0 0 20px;
+	}
+
+
+	.reviews__slider
+	{
+		margin-top: 30px;
+	}
+
+
+	.main-about__coll,
+	.main-about__colr
+	{
+		width: calc(50% - 15px);
+	}
+
+	.main-about__title
+	{
+		font-size: 40px;
+	}
+
+	.main-about__btn
+	{
+		margin-top: 30px;
+	}
+
+
+	.brigadiers__flex
+	{
+		margin-top: 15px;
+	}
+
+	.brigadiers__name
+	{
+		font-size: 25px;
+	}
+
+
+	.reviews__top
+	{
+		font-size: 24px;
+	}
+
+	.reviews__icon 
+	{
+		width: 22px;
+		height: 22px;
+	}
+
+
+	.brigadiers__grid
+	{
+		margin-left: -20px;
+	}
+
+	.brigadiers__item 
+	{
+		position: relative;
+		width: calc(100% / 4 - 20px);
+		margin: 20px 0 0 20px;
+	}
+
+
+	.brands__grid
+	{
+		margin-left: -20px;
+	}
+
+	.brands__brand
+	{
+		width: calc(100% / 6 - 20px);
+		margin: 23px 0 0 20px;
+	}
+
+	.brands__brand
+	{
+		font-size: 16px;
+	}
+
+
+	.footer__coll 
+	{
+		width: 335px;
+	}
+
+	.footer__colr 
+	{
+		width: calc(100% - 360px);
+	}
+}

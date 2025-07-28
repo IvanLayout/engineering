@@ -1,3 +1,230 @@
 @media (max-width: 767px)
 {
+	.main-title
+	{
+		font-size: 26px;
+	}
+
+	.main-title__marg-right
+	{
+		margin-right: 100px;
+	}
+
+	._marg
+	{
+		margin-top: 30px;
+	}
+
+	._pad
+	{
+		padding: 30px 0;
+	}
+
+	.slider-button-prev, 
+	.slider-button-next
+	{
+		width: 40px;
+		height: 40px;
+		margin-top: -20px;
+	}
+
+	.slider-button-prev svg, 
+	.slider-button-next svg
+	{
+		width: 6px;
+		height: 12px;
+	}
+
+	.slider-button-prev._top
+	{
+		right: 48px;
+	}
+
+	.slider-button-prev._top, 
+	.slider-button-next._top
+	{
+		margin-top: -70px;
+	}
+
+
+	.stocks__slider
+	{
+		margin-top: 25px;
+	}
+
+
+	.portfolio__items
+	{
+		margin-left: -15px;
+	}
+
+	.portfolio__item 
+	{
+		width: calc(100% / 3 - 15px);
+		margin-left: 15px;
+	}
+
+
+	.reviews__item
+	{
+		min-height: 227px;
+	}
+
+
+	.main-about__coll
+	{
+		width: 100%;
+		order: 2;
+	}
+
+	.main-about__colr
+	{
+		width: 100%;
+		order: 1;
+	}
+
+	.main-about__box
+	{
+		margin-left: 0;
+		max-width: 100%;
+	}
+
+	.main-about__btn
+	{
+		text-align: center;
+	}
+
+	.brigadiers__sticker
+	{
+		top: 23px;
+		left: 20px;
+		font-size: 12px;
+	}
+
+	.brigadiers__name 
+	{
+		font-size: 18px;
+	}
+
+	.brigadiers__position 
+	{
+		font-size: 15px;
+	}
+
+	.brigadiers__info
+	{
+		font-size: 14px;
+	}
+
+
+	.brands__grid
+	{
+		margin-left: -15px;
+		margin-top: 20px;
+	}
+
+	.brands__brand 
+	{
+		width: calc(100% / 3 - 15px);
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+
+
+	.section-form__img,
+	.section-form__wrap::after
+	{
+		display: none;
+	}
+
+	.section-form__wrap
+	{
+		padding: 6px 0;
+	}
+
+
+	.main-form
+	{
+		max-width: 100%;
+		padding: 20px 20px 36px;
+	}
+
+	.main-form__desc
+	{
+		margin-top: 15px;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+
+	
+	.footer
+	{
+		padding-top: 36px;
+		padding-bottom: 30px;
+	}
+
+	.footer__coll
+	{
+		width: 100%;
+	}
+
+	.footer__colr
+	{
+		width: 100%;
+		margin-top: 24px;
+	}
+
+	.footer__box
+	{
+		margin-top: 20px;
+		padding-top: 20px;
+	}
+
+	.footer__btn
+	{
+		width: 100%;
+	}
+
+	.footer__title
+	{
+		font-size: 18px;
+	}
+
+	.footer__desc
+	{
+		margin-top: 23px;
+	}
+
+	.footer__socials-box
+	{
+		margin-top: 15px;
+	}
+
+	.footer__info
+	{
+		padding-top: 0;
+		border-top: none;
+	}
+
+	.footer-menu
+	{
+		display: none;
+	}
+
+	.footer__copy
+	{
+		margin-top: 11px;
+	}
+
+	.footer__links
+	{
+		margin: 20px 0 0;
+	}
+
+	.footer__link
+	{
+		width: 100%;
+		margin-top: 0;
+		margin-left: 0;
+	}
 }

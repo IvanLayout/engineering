@@ -1,3 +1,125 @@
 @media (max-width: 1023px)
 {
+	.main-title
+	{
+		font-size: 28px;
+	}
+
+	.header
+	{
+		display: none;
+	}
+
+	.header__list,
+	.header__time,
+	.header__write-btn,
+	.header__logo,
+	.header-catalog__open,
+	.header__socials,
+	.header__phone,
+	.header__callback-btn
+	{
+		display: none;
+	}
+
+	.header__callback-btn-mob
+	{
+		display: block;
+	}
+
+	.header__top
+	{
+		padding-top: 16px;
+		padding-bottom: 0;
+		border-bottom: none;
+		display: block;
+	}
+
+	.header__adres-btn
+	{
+		margin-left: 0;
+		height: 45px;
+		background: rgba(77, 189, 60, .1);
+		border-radius: 12px;
+		width: 100%;
+		max-width: 175px;
+		padding-left: 0;
+		font-size: 16px;
+	}
+
+	.header__adres-btn span
+	{
+		position: relative;
+		padding-left: 28px;
+	}
+
+	.header__top .header__callback-btn-mob
+	{
+		display: block;
+		line-height: 45px;
+		margin-left: 15px;
+	}
+
+	.header__info
+	{
+		display: none;
+	}
+
+	.mob-menu
+	{
+		display: block;
+	}
+
+	.header-mob
+	{
+		display: block;
+	}
+
+	.main-about__slider 
+	{
+		padding: 0 80px;
+	}
+
+	.main-about__title 
+	{
+		font-size: 28px;
+	}
+
+	.slider-button-next
+	{
+		right: 10px;
+	}
+
+	.slider-button-prev
+	{
+		left: 10px;
+	}
+
+
+	.brigadiers__item
+	{
+		width: calc(100% / 2 - 20px);
+	}
+
+	.brigadiers__name
+	{
+		font-size: 22px;
+	}
+
+	.brands__brand
+	{
+		width: calc(100% / 4 - 20px);
+	}
+
+
+	.footer-menu__col
+	{
+		width: calc(100% / 2 - 30px);
+	}
+
+	.footer__info
+	{
+		margin-top: 0;
+		padding-top: 10px;
+	}
 }

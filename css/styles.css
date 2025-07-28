@@ -427,19 +427,11 @@ button
     opacity: .65;
 }
 
-.header__top .modal-btn
+.header__write-btn
 {
-    color: #4DBD3C;
+	color: #4DBD3C;
 
     transition: color .2s linear;
-}
-
-@media (any-hover: hover)
-{
-    .header__top .modal-btn:hover
-    {
-        color: rgba(5, 24, 36, .65);
-    }
 }
 
 .header__adres-btn
@@ -448,6 +440,24 @@ button
 
     margin-left: 20px;
     padding-left: 25px;
+
+	color: #4DBD3C;
+
+    transition: color .2s linear;
+}
+
+@media (any-hover: hover)
+{
+    .header__write-btn:hover,
+	.header__adres-btn:hover
+    {
+        color: rgba(5, 24, 36, .65);
+    }
+}
+
+.header__top .header__callback-btn-mob
+{
+	display: none;
 }
 
 
@@ -475,6 +485,11 @@ button
     }
 }
 
+.header__callback-btn-mob
+{
+	display: none;
+}
+
 
 .header__info
 {
@@ -482,8 +497,8 @@ button
     align-content: center;
     align-items: center;
 
-    padding-top: 14px;
-    padding-bottom: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
@@ -650,6 +665,104 @@ button
 
     height: 52px;
     padding: 0 17.5px;
+}
+
+
+.header-mob
+{
+	display: none;
+	padding: 15px 0;
+	background: #fff;
+	position: relative;
+}
+
+.header-mob .cont
+{
+	align-items: center;
+	align-content: center;
+}
+
+.header-mob__logo
+{
+	width: 160px;
+}
+
+.header-mob__logo img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.header-mob__phone
+{
+	margin-left: auto;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.header-mob__phone a
+{
+	text-decoration: none;
+	color: #112836;
+}
+
+.mob-menu
+{
+	display: none;
+}
+
+.mob-menu
+{
+	display: block;
+	width: 100%;
+}
+
+.mob-menu__item + .mob-menu__item
+{
+	border-top: 1px solid #ECF0F8;
+}
+
+.mob-menu__item
+{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.mob-menu__item a
+{
+	padding: 22px 0;
+	display: block;
+	text-decoration: none;
+	color: #112836;
+}
+
+
+.header-mob__socials
+{
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+	margin-left: 10px;
+}
+
+.header-mob__socials-link + .header-mob__socials-link
+{
+    margin-left: 5px;
+}
+
+.header-mob__socials-link
+{
+    width: 40px;
+    height: 40px;
+}
+
+.header-mob__socials-link img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 /*------------
     BTNS
@@ -2935,6 +3048,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	align-items: center;
 	align-content: center;
 	flex-wrap: wrap;
+
+	margin-top: -4px;
 }
 
 .reviews__icon img
@@ -3029,7 +3144,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .main-form__desc
 {
 	margin: 24px 0 28px;
-	font-size: 20px;
 }
 /*------------
     commit
@@ -3318,7 +3432,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	padding: 80px 0 40px;
 	font-size: 18px;
-	line-height: auto;
+	line-height: normal;
 }
 
 .footer .cont
@@ -3331,15 +3445,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	width: 385px;
 }
 
-.footer__logo
-{
-	height: 82px;
-}
-
 .footer__logo img
 {
 	display: block;
 	max-height: 100%;
+	max-width: 100%;
 }
 
 .footer__box
