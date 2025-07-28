@@ -3293,6 +3293,190 @@ input[type=checkbox]:checked + .checkbox-btn__text
 ------------*/
 .footer
 {
+	padding: 80px 0 40px;
+	font-size: 18px;
+	line-height: auto;
+}
+
+.footer .cont
+{
+	justify-content: space-between;
+}
+
+.footer__coll
+{
+	width: 385px;
+}
+
+.footer__logo
+{
+	height: 82px;
+}
+
+.footer__logo img
+{
+	display: block;
+	max-height: 100%;
+}
+
+.footer__box
+{
+	margin-top: 16px;
+	padding-top: 34px;
+	border-top: 1px solid #ECF0F8;
+}
+
+.footer__title
+{
+	font-weight: 500;
+}
+
+.footer__item + .footer__title
+{
+	margin-top: 20px;
+}
+
+.footer__btn
+{
+	margin-top: 15px;
+}
+
+.footer__desc
+{
+	margin-top: 40px;
+	opacity: .65;
+}
+
+.footer__socials-box
+{
+	margin-top: 33px;
+}
+
+.footer__socials
+{
+	margin: 5px 0 0 -10px;
+}
+
+.footer__socials-link
+{
+	width: 40px;
+	height: 40px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	margin: 10px 0 0 10px;
+	text-decoration: none;
+}
+
+.footer__socials-link img
+{
+	display: block;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.footer__colr
+{
+	width: calc(100% - 400px);
+	max-width: 930px;
+}
+
+.footer-contacts__item
+{
+	margin-top: 16px;
+	opacity: .65;
+}
+
+.footer-contacts__item a
+{
+	text-decoration: none;
+	color: #051824;
+}
+
+.footer-menu
+{
+	margin-left: -30px;
+}
+
+.footer-menu__col
+{
+	width: calc(100%/4 - 30px);
+	margin: 0 0 30px 30px;
+}
+
+.footer__item
+{
+	margin-top: 16px;
+}
+
+.footer__item + .footer__item
+{
+	margin-top: 20px;
+}
+
+.footer-menu__link
+{
+	text-decoration: none;
+	transition: .2s linear;
+	color: rgba(5, 24, 36, .65);
+	transition: color .2s linear;
+}
+
+@media (any-hover: hover)
+{
+	.footer-menu__link:hover
+	{
+		color: rgba(5, 24, 36, 1);
+	}
+}
+
+.footer__info
+{
+	margin-top: 30px;
+	padding-top: 75px;
+	border-top: 1px solid #F7F7F7;
+	text-transform: uppercase;
+	opacity: .65;
+	font-size: 12px;
+}
+
+.footer__copy
+{
+	margin-top: 15px;
+	opacity: .65;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.footer__links
+{
+	margin-left: -35px;
+}
+
+.footer__link
+{
+	margin: 17px 0 0 35px;
+	font-size: 15px;
+}
+
+.footer__link a
+{
+	text-decoration: none;
+	transition: .2s linear;
+	color: rgba(5, 24, 36, .65);
+}
+
+@media (any-hover: hover)
+{
+	.footer__link a:hover
+	{
+		color: rgba(5, 24, 36, 1);
+	}
 }
 /*------------
     Modal
