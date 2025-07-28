@@ -2696,6 +2696,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	background: #F4F6FB;
 	border-radius: 30px;
 	padding: 40px 40px 60px;
+
+	height: auto;
 }
 
 .advantages__icon
@@ -2789,6 +2791,35 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	background: #fff;
 	border-radius: 30px;
 	padding: 35px 35px 40px;
+	overflow: hidden;
+	position: relative;
+
+	height: auto;
+}
+
+.reviews__img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	width: 100%;
+	height: 100%;
+
+	background: rgba(0, 0, 0, .2);
+}
+
+.reviews__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .reviews__top
@@ -2800,11 +2831,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 	font-size: 30px;
 	font-weight: 500;
-}
-
-.reviews__name
-{
-	
 }
 
 .reviews__rating
@@ -2847,6 +2873,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	margin-top: 10px;
 	font-size: 20px;
+	line-height: 1.5;
 }
 
 .reviews__bot
