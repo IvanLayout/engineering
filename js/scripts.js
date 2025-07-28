@@ -53,6 +53,100 @@ $(() => {
 		})
 	}
 
+	if ($('.stocks__slider').length) {
+		new Swiper(".stocks__slider", {
+			loop: true,
+			spaceBetween: 10,
+			slidesPerView: 1,
+			speed: 800,
+			watchSlidesProgress: true,
+			watchOverflow: true,
+			preloadImages: false,
+			lazy: {
+				loadPrevNext: true,
+				elementClass: 'lazyload',
+				enabled: true,
+				loadedClass: 'loaded',
+				checkInView: true,
+				loadOnTransitionStart: true
+			},
+			navigation: {
+				nextEl: '.slider-button-next',
+				prevEl: '.slider-button-prev'
+			},
+			pagination: {
+				bulletActiveClass: 'slider-dot_active',
+				bulletClass: 'slider-dot',
+				clickableClass: 'slider-pagination-clickable',
+				el: '.slider-pagination',
+				clickable: true
+			},
+			on: {
+				init: function (swiper) {
+					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
+				},
+			}
+		})
+	}
+
+	if ($('.advantages__slider').length) {
+		new Swiper(".advantages__slider", {
+			loop: true,
+			spaceBetween: 30,
+			slidesPerView: 3,
+			speed: 800,
+			watchSlidesProgress: true,
+			watchOverflow: true,
+			preloadImages: false,
+			lazy: {
+				loadPrevNext: true,
+				elementClass: 'lazyload',
+				enabled: true,
+				loadedClass: 'loaded',
+				checkInView: true,
+				loadOnTransitionStart: true
+			},
+			navigation: {
+				nextEl: '.slider-button-next',
+				prevEl: '.slider-button-prev'
+			},
+			on: {
+				init: function (swiper) {
+					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
+				},
+			}
+		})
+	}
+
+	if ($('.reviews__slider').length) {
+		new Swiper(".reviews__slider", {
+			loop: true,
+			spaceBetween: 30,
+			slidesPerView: 3,
+			speed: 800,
+			watchSlidesProgress: true,
+			watchOverflow: true,
+			preloadImages: false,
+			lazy: {
+				loadPrevNext: true,
+				elementClass: 'lazyload',
+				enabled: true,
+				loadedClass: 'loaded',
+				checkInView: true,
+				loadOnTransitionStart: true
+			},
+			navigation: {
+				nextEl: '.slider-button-next',
+				prevEl: '.slider-button-prev'
+			},
+			on: {
+				init: function (swiper) {
+					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
+				},
+			}
+		})
+	}
+
 	if ($('.main-about__slider').length) {
 		new Swiper(".main-about__slider", {
 			loop: true,

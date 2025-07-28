@@ -140,16 +140,16 @@
 								<p>Инженерные решения с учетом особенностей участка, дома и ваших потребностей</p>
 							</div>
 
-							<form action="" class="form first-section__form">
-								<div class="first-section__form-flex _flex">
-									<div class="form__field">
-										<input type="phone" value="" placeholder="Телефон / WhatsApp / Telegram" class="form__input form__input_white">
+							<form action="" class="first-section-form">
+								<div class="first-section-form__flex _flex">
+									<div class="first-section-form__field">
+										<input type="phone" value="" placeholder="Телефон / WhatsApp / Telegram" class="first-section-form__input">
 									</div>
 
-									<button type="submit" class="form__submit-btn btn-green">Рассчитать стоимость</button>
+									<button type="submit" class="first-section-form__submit-btn btn-green">Рассчитать стоимость</button>
 								</div>
 
-								<div class="form__agree">Согласие на <a href="/">обработку персональных данных</a></div>
+								<div class="first-section-form__agree">Согласие на <a href="/">обработку персональных данных</a></div>
 							</form>
 						</div>
 
@@ -159,8 +159,6 @@
 									<svg>
 										<use xlink:href="images/sprite.svg#handshake"></use>
 									</svg>
-
-									<!-- <img data-src="images/ic_icon_first_section1.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
 								</div>
 
 								<div class="first-section__box">
@@ -175,8 +173,6 @@
 									<svg>
 										<use xlink:href="images/sprite.svg#check"></use>
 									</svg>
-
-									<!-- <img data-src="images/ic_icon_first_section2.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
 								</div>
 
 								<div class="first-section__box">
@@ -186,13 +182,11 @@
 								</div>
 							</div>
 
-							<div class="first-section__item first-section__item-green">
+							<div class="first-section__item">
 								<div class="first-section__icon">
 									<svg>
 										<use xlink:href="images/sprite.svg#calendar"></use>
 									</svg>
-
-									<!-- <img data-src="images/ic_icon_first_section3.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
 								</div>
 
 								<div class="first-section__box">
@@ -207,8 +201,6 @@
 									<svg>
 										<use xlink:href="images/sprite.svg#user"></use>
 									</svg>
-
-									<!-- <img data-src="images/ic_icon_first_section4.svg" src="images/img_plug.png" alt="" class="lazyload"> -->
 								</div>
 
 								<div class="first-section__box">
@@ -310,21 +302,258 @@
 				<section class="stocks _marg">
 					<div class="cont">
 						<div class="main-title">Акции: успейте воспользоваться выгодными предложениями</div>
+
+						<div class="stocks__slider swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<a href="/" class="stocks__img">
+										<span>
+											<img data-src="images/tmp/stocks.jpg" src="images/img_plug.png" alt="" class="lazyload">
+										</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/" class="stocks__img">
+										<span>
+											<img data-src="images/tmp/stocks.jpg" src="images/img_plug.png" alt="" class="lazyload">
+										</span>
+									</a>
+								</div>
+								<div class="swiper-slide">
+									<a href="/" class="stocks__img">
+										<span>
+											<img data-src="images/tmp/stocks.jpg" src="images/img_plug.png" alt="" class="lazyload">
+										</span>
+									</a>
+								</div>
+							</div>
+
+							<div class="slider-pagination slider-pagination__white _bot-abs"></div>
+
+							<button type="button" class="slider-button-prev">
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</button>
+							<button type="button" class="slider-button-next">
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</button>
+						</div>
 					</div>
 				</section>
 
 
 				<section class="advantages _marg">
 					<div class="cont">
-						<div class="main-title">Комплексные решения, обеспечивающие надёжную, безопасную, и энергоэффективную работу всех коммуникаций</div>
+						<div class="main-title main-title__marg-right">Комплексные решения, обеспечивающие надёжную, безопасную, и энергоэффективную работу всех коммуникаций</div>
+
+						<div class="advantages__slider swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv1.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+
+									<div class="advantages__name">Все услуги в одной компании</div>
+
+									<div class="advantages__desc">
+										Выполняем полный комплекс работ: проектирование систем, подбор и монтаж оборудования, гарантийное и регулярное техническое обслуживание
+									</div>
+								</div>
+
+								<div class="swiper-slide advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv2.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+
+									<div class="advantages__name">Удобная оплата</div>
+
+									<div class="advantages__desc">
+										Без аванса - по факту выполненных работ. Предлагаем наличный и  безналичный расчёт
+									</div>
+								</div>
+
+								<div class="swiper-slide advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv3.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+
+									<div class="advantages__name">Профессиональный монтаж</div>
+
+									<div class="advantages__desc">
+										Устанавливаем системы с соблюдением строительных норм, техники безопасности и требований производителей
+									</div>
+								</div>
+
+								<div class="swiper-slide advantages__item">
+									<div class="advantages__icon">
+										<img data-src="images/ic_adv1.svg" src="images/img_plug.png" alt="" class="lazyload">
+									</div>
+
+									<div class="advantages__name">Все услуги в одной компании</div>
+
+									<div class="advantages__desc">
+										Выполняем полный комплекс работ: проектирование систем, подбор и монтаж оборудования, гарантийное и регулярное техническое обслуживание
+									</div>
+								</div>
+							</div>
+
+							<button type="button" class="slider-button-prev _top slider-button-prev__grey">
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</button>
+							<button type="button" class="slider-button-next _top slider-button-next__grey">
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</button>
+						</div>
+
+						<div class="wrap-btn">
+							<button type="button" data-content="#consultation" class="btn-green modal-btn">Получить консультацию</button>
+						</div>
 					</div>
 				</section>
 
 				<section class="portfolio _marg">
 					<div class="cont">
 						<div class="main-title">Проекты, реализованные нашей командой</div>
+
+						<div class="portfolio__items _flex">
+							<div class="portfolio__item">
+								<a href="images/tmp/portfolio1.jpg" data-fancybox="gallery-foto" class="portfolio__img">
+									<img data-src="images/tmp/portfolio1.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+
+							<div class="portfolio__item">
+								<a href="images/tmp/portfolio2.jpg" data-fancybox="gallery-foto" class="portfolio__img">
+									<img data-src="images/tmp/portfolio2.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+
+							<div class="portfolio__item">
+								<a href="images/tmp/portfolio3.jpg" data-fancybox="gallery-foto" class="portfolio__img">
+									<img data-src="images/tmp/portfolio3.jpg" src="images/img_plug.png" alt="" class="lazyload">
+								</a>
+							</div>
+						</div>
+
+						<div class="wrap-btn">
+							<a href="/" class="btn-light">Все фотографии работ</a>
+						</div>
 					</div>
 				</section>
+
+
+				<section class="reviews _marg _grey _pad">
+					<div class="cont">
+						<div class="main-title main-title__marg-right">Пять звёзд — наш рейтинг на Яндекс</div>
+
+						<div class="reviews__slider swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide reviews__item">
+									<div class="reviews__top _flex">
+										<div class="reviews__name">Евгений Р.</div>
+
+										<div class="reviews__rating _flex">
+											<div class="reviews__number">5.0</div>
+
+											<div class="reviews__icon">
+												<img data-src="images/ic_star.svg" src="images/img_plug.png" alt="" class="lazyload">
+											</div>
+										</div>
+									</div>
+
+									<div class="reviews__desc">
+										Благодарю бригадира Дмитрия и компанию Русептик за проведенную работу! Обустроили скважину под ключ. Результатом я полностью доволен. Система работает бесперебойно.
+									</div>
+
+									<div class="reviews__bot">Отзыв с <a href="/">Яндекса</a> от 16 февраля 2025</div>
+								</div>
+
+								<div class="swiper-slide reviews__item">
+									<div class="reviews__top _flex">
+										<div class="reviews__name">Евгений Р.</div>
+
+										<div class="reviews__rating _flex">
+											<div class="reviews__number">5.0</div>
+
+											<div class="reviews__icon">
+												<img data-src="images/ic_star.svg" src="images/img_plug.png" alt="" class="lazyload">
+											</div>
+										</div>
+									</div>
+
+									<div class="reviews__desc">
+										Благодарю бригадира Дмитрия и компанию Русептик за проведенную работу! Обустроили скважину под ключ. Результатом я полностью доволен. Система работает бесперебойно.
+									</div>
+
+									<div class="reviews__bot">Отзыв с <a href="/">Яндекса</a> от 16 февраля 2025</div>
+								</div>
+
+								<div class="swiper-slide reviews__item">
+									<div class="reviews__top _flex">
+										<div class="reviews__name">Анатолий П.</div>
+
+										<div class="reviews__rating _flex">
+											<div class="reviews__number">5.0</div>
+
+											<div class="reviews__icon">
+												<img data-src="images/ic_star.svg" src="images/img_plug.png" alt="" class="lazyload">
+											</div>
+										</div>
+									</div>
+
+									<div class="reviews__desc">
+										Благодарю бригадира Дмитрия и компанию Русептик за проведенную работу! Обустроили скважину под ключ. Результатом я полностью доволен. Система работает бесперебойно.
+									</div>
+
+									<div class="reviews__bot">Отзыв с <a href="/">Яндекса</a> от 16 февраля 2025</div>
+								</div>
+
+								<div class="swiper-slide reviews__item">
+									<div class="reviews__top _flex">
+										<div class="reviews__name">Евгений Р.</div>
+
+										<div class="reviews__rating _flex">
+											<div class="reviews__number">5.0</div>
+
+											<div class="reviews__icon">
+												<img data-src="images/ic_star.svg" src="images/img_plug.png" alt="" class="lazyload">
+											</div>
+										</div>
+									</div>
+
+									<div class="reviews__desc">
+										Благодарю бригадира Дмитрия и компанию Русептик за проведенную работу! Обустроили скважину под ключ. Результатом я полностью доволен. Система работает бесперебойно.
+									</div>
+
+									<div class="reviews__bot">Отзыв с <a href="/">Яндекса</a> от 16 февраля 2025</div>
+								</div>
+							</div>
+
+							<button type="button" class="slider-button-prev _top">
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</button>
+							<button type="button" class="slider-button-next _top">
+								<svg>
+									<use xlink:href="images/sprite.svg#arrow1"></use>
+								</svg>
+							</button>
+						</div>
+
+						<div class="wrap-btn">
+							<a href="/" class="btn-light">Все отзывы</a>
+						</div>
+					</div>
+				</section>
+				
 
 				<section class="main-about _marg">
 					<div class="cont">
