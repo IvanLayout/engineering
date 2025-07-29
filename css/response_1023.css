@@ -78,12 +78,13 @@
 	.header__adres-btn
 	{
 		margin-left: 15px;
-		height: 45px;
+		line-height: 45px;
 		background: rgba(77, 189, 60, .1);
 		border-radius: 12px;
 		width: calc(50% - 15px);
 		padding-left: 0;
 		font-size: 16px;
+		text-align: center;
 	}
 
 	.header__adres-btn span
@@ -370,11 +371,6 @@
 		margin-top: 20px;
 	}
 
-	
-	.footer
-	{
-		padding-top: 40px;
-	}
 
 	/*------------
 		commit
@@ -409,6 +405,85 @@
 		font-size: 14px;
 	}
 
+	.banner-about{
+		padding: 0;
+		min-height: 1px;
+	}
+
+	.banner-about__img{
+		position: relative;
+		height: auto;
+		padding-bottom: 40%;
+		margin-bottom: -34px;
+	}
+
+	.banner-about .cont{
+		padding: 0;
+	}
+
+	.banner-about__box{
+		max-width: none;
+		border-radius: 24px 24px 0 0;
+		padding: 22px 20px 0;
+	}
+
+	.banner-about__title {
+		font-size: 28px;
+	}
+
+	.banner-about__desc{
+		margin-top: 15px;
+	}
+
+	.banner-about__btn{
+		margin-top: 15px;
+	}
+
+	.banner-about__btn .btn-green{
+		min-width: 220px;
+	}
+
+
+	.innre-banner__box {
+        margin-right: -100px;
+		padding-top: 40px;
+    }
+
+	.innre-banner__info{
+		display: none;
+	}
+
+	.page-title {
+		font-size: 30px;
+	}
+
+	.innre-banner__text{
+		padding-right: 70px;
+	}
+
+	.reviews__video::after {
+		width: 64px;
+		height: 64px;
+		margin: -32px 0 0 -32px;
+		background-size: 19px auto;
+		
+		background-position: calc(50% + 2px) 50%;
+	}
+
+	.videos__video::after {
+		width: 64px;
+		height: 64px;
+		margin: -32px 0 0 -32px;
+		background-size: 19px auto;
+		
+		background-position: calc(50% + 2px) 50%;
+	}
+
+
+	.footer
+	{
+		padding-top: 40px;
+	}
 
 	.footer-menu__col
 	{

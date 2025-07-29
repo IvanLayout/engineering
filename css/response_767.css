@@ -333,6 +333,78 @@
 		margin-top: 15px;
 	}
 
+	.banner-about__desc{
+		margin-top: 12px;
+	}
+
+
+	.banner-about__title{
+		font-size: 26px;
+	}
+
+
+	.modal{
+		width: 380px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.modal__title{
+		font-size: 24px;
+	}
+
+	.fancybox__content > .carousel__button.is-close{
+		top: 15px;
+	}
+
+
+	.innre-banner::before{
+		width: 322px;
+	}
+
+	.innre-banner__flex{
+		display: block;
+	}
+
+	.innre-banner__box{
+		margin: 0;
+		padding: 46px 0 33px;
+	}
+
+	.innre-banner .page-title{
+		max-width: 84%;
+	}
+
+	.innre-banner__text{
+		font-size: 20px;
+		padding-right: 0;
+		max-width: none;
+		margin-top: 15px;
+	}
+
+	.innre-banner__btn{
+		margin-top: 32px;
+	}
+
+	.innre-banner__colr {
+        width: calc(100% + 40px);
+		margin-left: -20px;
+        margin-right: -20px;
+    }
+
+	.innre-banner__img img{
+		max-width: 600px;
+	}
+
+
+	.videos__video::after {
+		width: 44px;
+		height: 44px;
+		margin: -22px 0 0 -22px;
+		background-size: 15px auto;
+		background-position: calc(50% + 1px) 50%;
+	}
+
 	
 	.footer
 	{

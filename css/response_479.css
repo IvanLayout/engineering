@@ -278,6 +278,43 @@
 	}
 
 
+	.banner-about__title{
+		font-size: 24px;
+	}
+
+	.banner-about__img{
+		padding-bottom: 47%;
+	}
+
+	.banner-about__desc{
+		font-size: 16px;
+		line-height: 1.31;
+	}
+
+	.banner-about__btn .btn-green{
+		min-width: 1px;
+	}
+
+
+	.videos__grid{
+		margin-top: -15px;
+	}
+
+	.videos__video {
+		margin-top: 15px;
+		width: 100%;
+	}
+
+	.videos__video::after {
+		width: 64px;
+		height: 64px;
+		margin: -32px 0 0 -32px;
+		background-size: 19px auto;
+		
+		background-position: calc(50% + 2px) 50%;
+	}
+
+
 	.footer__logo
 	{
 		width: 132px;
@@ -287,5 +324,11 @@
 	.footer__copy
 	{
 		font-size: 10px;
+	}
+
+
+	.modal{
+		padding-left: 24px;
+		padding-right: 24px;
 	}
 }

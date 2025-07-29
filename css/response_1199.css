@@ -21,6 +21,10 @@
 		font-size: 16px;
 	}
 
+	.form .form__textarea{
+		font-size: 16px;
+	}
+
 	.form__label
 	{
 		margin-bottom: 10px;
@@ -206,17 +210,6 @@
 	}
 
 
-	.banner-about 
-	{
-		min-height: 650px;
-		padding: 60px 0;
-	}
-
-	.banner-about__title
-	{
-		font-size: 40px;
-	}
-
 	.specialization__grid
 	{
 		margin: 15px 0 0 -20px;
@@ -297,6 +290,40 @@
 
 	.communications__img{
 		width: 160px;
+	}
+
+
+	.banner-about 
+	{
+		min-height: 570px;
+		padding: 60px 0;
+	}
+
+	.banner-about__title
+	{
+		font-size: 40px;
+	}
+
+	.banner-about__box {
+		max-width: 520px;
+		padding: 30px 40px 30px 40px;
+	}
+
+
+	.innre-banner__info{
+		margin-bottom: 20px;
+	}
+
+	.page-title {
+		font-size: 36px;
+	}
+
+	.innre-banner__text{
+		margin-top: 16px;
+	}
+
+	.innre-banner__btn{
+		margin-top: 20px;
 	}
 
 

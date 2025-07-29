@@ -206,6 +206,14 @@
 	/*------------
 		commit
 	------------*/
+	.videos__grid{
+		margin-top: -20px;
+	}
+
+	.videos__video {
+		margin-top: 20px;
+		width: calc(50% - 10px);
+	}
 
 
 	.footer__coll 

@@ -283,8 +283,27 @@
 	{
 		border-radius: 24px;
 	}
+	
 
 	/*------------
 		commit
 	------------*/
+    .innre-banner__info {
+        margin-bottom: 30px;
+    }
+
+
+	.page-title {
+        font-size: 40px;
+    }
+
+	.videos__video{
+		border-radius: 24px;
+	}
+
+	.videos__video::after {
+        width: 90px;
+        height: 90px;
+        margin: -45px 0 0 -45px;
+	}
 }

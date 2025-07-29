@@ -155,7 +155,7 @@ body
 
     content: '';
 
-    background: rgba(28, 27, 27, .96);
+    background: #4DBD3C;
 }
 
 .heade_stub .cont_stub
@@ -503,17 +503,6 @@ body
     {
         display: none;
     }
-
-    .heade_stub .name_stub
-    {
-        font-size: 16px;
-
-        width: 100%;
-        margin-top: 20px;
-
-        text-align: center;
-    }
-
 
     .section_stub .info .desc
     {
