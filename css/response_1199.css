@@ -5,6 +5,12 @@
 		font-size: 16px;
 	}
 
+	.text-block h1, 
+	.text-block .title
+	{
+		font-size: 40px;
+	}
+
 	.form__line
 	{
 		margin-bottom: 20px;
@@ -90,9 +96,63 @@
 	}
 
 
+	.first-section__img
+	{
+		margin-right: 130px;
+	}
+
+	.first-section__info
+	{
+		max-width: 580px;
+	}
+
+	.first-section__title
+	{
+		font-size: 40px;
+	}
+
 	.first-section-form__input
 	{
 		font-size: 16px;
+	}
+
+	.first-section-form__field
+	{
+		min-width: 1px;
+		width: 100%;
+	}
+
+	.first-section-form__submit-btn
+	{
+		flex-shrink: 0;
+	}
+
+	.first-section__items
+	{
+		margin-left: -15px;
+	}
+
+	.first-section__item
+	{
+		padding: 15px;
+		width: calc(100% / 4 - 15px);
+		margin: 15px 0 0 15px;
+	}
+
+	.first-section__box 
+	{
+		width: calc(100% - 56px);
+	}
+
+	.first-section__icon 
+	{
+		width: 40px;
+		height: 40px;
+	}
+
+	.first-section__desc
+	{
+		margin-top: 5px;
 	}
 
 

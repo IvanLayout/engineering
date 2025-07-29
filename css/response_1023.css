@@ -6,6 +6,12 @@
 		padding-bottom: 106px;
 	}
 
+	.text-block h1, 
+	.text-block .title 
+	{
+		font-size: 36px;
+	}
+
 	.main-title
 	{
 		font-size: 28px;
@@ -236,6 +242,33 @@
 
         opacity: 1;
     }
+
+
+	.first-section__img 
+	{
+		margin-right: 45px;
+	}
+
+	.first-section__banner-img
+	{
+		width: 990px;
+	}
+
+	.first-section__top
+	{
+		margin-bottom: 30px;
+	}
+
+	.first-section__title
+	{
+		font-size: 36px;
+	}
+
+	.first-section__item
+	{
+		width: calc(100% / 2 - 15px);
+		padding: 20px;
+	}
 
 
 	.main-about__slider 

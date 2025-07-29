@@ -1,5 +1,12 @@
 @media (max-width: 767px)
 {
+	.text-block h1, 
+	.text-block .title 
+	{
+		font-size: 30px;
+	}
+
+
 	.main-title
 	{
 		font-size: 26px;
@@ -44,6 +51,35 @@
 	.slider-button-next._top
 	{
 		margin-top: -70px;
+	}
+
+
+	.first-section
+	{
+		padding-top: 45px;
+	}
+
+	.first-section__img
+	{
+		top: -71px;
+		margin-right: -80px;
+		width: 429px;
+		height: 562px;
+	}
+
+	.first-section__banner-img
+	{
+		
+	}
+
+	.first-section__title
+	{
+		font-size: 30px;
+	}
+
+	.first-section__top
+	{
+		display: none;;
 	}
 
 

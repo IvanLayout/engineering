@@ -2549,6 +2549,21 @@ input[type=checkbox]:checked + .checkbox-btn__text
     max-width: 740px;
 }
 
+.first-section__title
+{
+	font-size: 50px;
+    font-weight: 500;
+	letter-spacing: -.01em;
+	line-height: normal;
+}
+
+.first-section__text
+{
+	font-size: 20px;
+	letter-spacing: -.01em;
+	margin-top: 15px;
+}
+
 .first-section__top
 {
     margin-bottom: 70px;

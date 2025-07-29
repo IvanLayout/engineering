@@ -105,6 +105,11 @@
 		height: 620px;
 	}
 
+	.first-section__title
+	{
+		font-size: 46px;
+	}
+
 	.first-section__top
 	{
 		margin-bottom: 50px;
