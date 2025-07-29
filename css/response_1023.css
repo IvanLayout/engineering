@@ -17,6 +17,12 @@
 		font-size: 28px;
 	}
 
+	.main-subtitle
+	{
+		margin-top: 20px;
+		font-size: 19px;
+	}
+
 	.header-mob
 	{
 		display: block;
@@ -308,6 +314,67 @@
 	}
 
 
+	.specialization__grid
+	{
+		margin-left: -15px;
+	}
+
+	.specialization__item 
+	{
+		width: calc(100% / 4 - 15px);
+		margin: 15px 0 0 15px;
+		font-size: 18px;
+	}
+
+	.specialization__name
+	{
+		margin-top: 15px;
+	}
+
+	.specialization__desc 
+	{
+		margin-top: 30px;
+		font-size: 18px;
+	}
+
+
+	.norms-standards__item
+	{
+		padding: 30px;
+	}
+
+	.norms-standards__icon
+	{
+		height: 64px;
+	}
+
+	.norms-standards__name
+	{
+		font-size: 21px;
+	}
+
+	.norms-standards__desc
+	{
+		font-size: 18px;
+	}
+
+
+	.about__text
+	{
+		font-size: 18px;
+	}
+
+	.about__position
+	{
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	
+	.footer
+	{
+		padding-top: 40px;
+	}
 
 	/*------------
 		commit

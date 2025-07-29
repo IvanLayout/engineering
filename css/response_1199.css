@@ -84,6 +84,11 @@
 		font-size: 15px;
 	}
 
+	.nav-menu__item + .nav-menu__item
+	{
+		margin-left: 10px;
+	}
+
 	.header__phone
 	{
 		font-size: 14px;
@@ -200,6 +205,75 @@
 		max-width: 460px;
 	}
 
+
+	.banner-about 
+	{
+		min-height: 650px;
+		padding: 60px 0;
+	}
+
+	.banner-about__title
+	{
+		font-size: 40px;
+	}
+
+	.specialization__grid
+	{
+		margin: 15px 0 0 -20px;
+	}
+
+	.specialization__item
+	{
+		width: calc(100% / 4 - 20px);
+		margin: 20px 0 0 20px;
+		font-size: 20px;
+	}
+
+	.specialization__name
+	{
+		margin-top: 20px;
+	}
+
+	.specialization__desc
+	{
+		margin-top: 50px;
+		font-size: 20px;
+	}
+
+
+	.norms-standards__item
+	{
+		width: calc(50% - 10px);
+		margin-top: 20px;
+	}
+
+
+	.about
+	{
+		padding: 60px 0;
+	}
+
+	.about__flex
+	{
+		flex-wrap: wrap;
+	}
+
+	.about__coll
+	{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.about__colr
+	{
+		margin-top: 25px;
+	}
+	
+	.about__info,
+	.about__box
+	{
+		max-width: 100%;
+	}
 
 	/*------------
 		commit

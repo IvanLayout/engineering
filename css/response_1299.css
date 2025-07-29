@@ -192,6 +192,17 @@
 		font-size: 16px;
 	}
 
+
+	.banner-about__title
+	{
+		font-size: 44px;
+	}
+
+	.banner-about__desc
+	{
+		margin-top: 15px;
+	}
+
 	/*------------
 		commit
 	------------*/

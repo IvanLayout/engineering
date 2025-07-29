@@ -266,6 +266,24 @@
         border-radius: 24px;
     }
 
+
+	.banner-about__title
+	{
+		font-size: 46px;
+	}
+
+	.specialization__item
+	{
+		font-size: 23px;
+	}
+
+
+	.specialization__img,
+	.norms-standards__item
+	{
+		border-radius: 24px;
+	}
+
 	/*------------
 		commit
 	------------*/

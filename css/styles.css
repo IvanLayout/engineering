@@ -3865,7 +3865,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .footer
 {
     font-size: 18px;
-    line-height: auto;
+    line-height: normal;
 
     padding: 80px 0 40px;
 }
