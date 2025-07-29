@@ -207,6 +207,22 @@ $(() => {
 			parent.find('.file-selection__path').removeClass('_active')
 		}
 	})
+
+	$('body').on('click', '.open-menu-mob', function (e) {
+		e.preventDefault()
+
+		if ( $(this).hasClass('_active') ) {
+			$(this).removeClass('_active') 
+
+			$('.header').removeClass('_show')
+			$('body').removeClass('_lock')
+		} else{
+			$(this).addClass('_active') 
+
+			$('.header').addClass('_show')
+			$('body').addClass('_lock')
+		}
+	})
 })
 
 

@@ -5,11 +5,6 @@
 		font-size: 28px;
 	}
 
-	.header
-	{
-		display: none;
-	}
-
 	.header__list,
 	.header__time,
 	.header__write-btn,
@@ -29,20 +24,24 @@
 
 	.header__top
 	{
-		padding-top: 16px;
-		padding-bottom: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
 		border-bottom: none;
 		display: block;
 	}
 
+	.header__box
+	{
+		margin-left: -15px;
+	}
+
 	.header__adres-btn
 	{
-		margin-left: 0;
+		margin-left: 15px;
 		height: 45px;
 		background: rgba(77, 189, 60, .1);
 		border-radius: 12px;
-		width: 100%;
-		max-width: 175px;
+		width: calc(50% - 15px);
 		padding-left: 0;
 		font-size: 16px;
 	}
@@ -58,6 +57,13 @@
 		display: block;
 		line-height: 45px;
 		margin-left: 15px;
+		width: calc(50% - 15px);
+		padding: 0 15px;
+	}
+
+	.mob-menu
+	{
+		display: block;
 	}
 
 	.header__info
@@ -65,9 +71,9 @@
 		display: none;
 	}
 
-	.mob-menu
+	._lock
 	{
-		display: block;
+		overflow: hidden;
 	}
 
 	.fix-btns
@@ -88,7 +94,7 @@
 		border-radius: 24px 24px 0 0;
 
         background: #FFF;
-        /* box-shadow: 0 -4px 4px 0 rgba(212, 212, 212, .25); */
+        box-shadow: 0 -2px 20px 0 rgba(0, 0, 0, .05);
     }
 
     .fix-btns__btn
@@ -104,13 +110,14 @@
         padding: 8px 0 10px;
 
         text-decoration: none;
+		text-align: center;
 
         transition: color .2s linear;
     }
 
     .fix-btns__btn._active
     {
-        color: #007657;
+        color: #4DBD3C;
     }
 
     .fix-btns__btn-icon
@@ -132,15 +139,75 @@
         height: 32px;
 
         stroke: #8C94A8;
+		fill: none;
     }
+
+	.fix-btns__btn._active .fix-btns__btn-icon svg
+    {
+        stroke: #4DBD3C;
+    }
+
+	.fix-btns__btn-dot
+	{
+		display: block;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: #8C94A8;
+		transition: background .2s linear;
+	}
+
+	.fix-btns__btn-dot + .fix-btns__btn-dot
+	{
+		margin-left: 4px;
+	}
+
+	.fix-btns__btn._active .fix-btns__btn-dot
+    {
+        background: #4DBD3C;
+    }
+
 
 	.fix-btns__btn-name
 	{
 		font-size: 14px;
 		line-height: normal;
 		letter-spacing: -.01em;
-		color: #8C94A8
 	}
+
+
+    .header
+    {
+        position: fixed;
+        z-index: 60;
+        top: 82px;
+        left: 0;
+
+        display: block;
+        visibility: hidden;
+        overflow: hidden;
+        overflow-y: auto;
+
+        width: 100%;
+        height: calc(100% - 82px);
+		padding: 15px 0 130px;
+
+        pointer-events: none;
+
+        opacity: 0;
+        background: #FFF;
+
+        transition: opacity .2s linear, visibility .2s linear;
+    }
+
+    .header._show
+    {
+        visibility: visible;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
 
 
 	.header-mob
