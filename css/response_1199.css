@@ -212,6 +212,31 @@
 	}
 
 
+	/*------------
+		commit
+	------------*/
+
+	.communications__items{
+		margin: 0;
+	}
+
+	.communications__item{
+		min-height: 352px;
+
+   		width: calc(100% / 2 - 10px);
+		margin-top: 20px;
+	}
+
+	.communications__top{
+		max-width: none;
+		width: calc(100% - 130px);
+	}
+
+	.communications__img{
+		width: 160px;
+	}
+
+
 	.footer
 	{
 		font-size: 16px;

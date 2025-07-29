@@ -1,109 +1,182 @@
 @media (max-width: 1399px)
 {
-	body
-	{
-		font-size: 18px;
-	}
+    body
+    {
+        font-size: 18px;
+    }
 
-	.form .form__input
-	{
-		font-size: 19px;
-		height: 54px;
-	}
+    .text-block h1,
+    .text-block .title
+    {
+        font-size: 46px;
+    }
 
-	.text-block h1, 
-	.text-block .title
-	{
-		font-size: 46px;
-	}
+    .btn-green
+    {
+        font-size: 19px;
+        line-height: 54px;
+    }
 
-	.btn-green,
-	.btn-light
-	{
-		font-size: 19px;
-		line-height: 54px;
-	}
-
-	._marg 
-	{
-		margin-top: 60px;
-	}
-
-	._pad
-	{
-		padding: 60px 0;
-	}
-
-	
-	.main-title
-	{
-		font-size: 38px;
-	}
-
-	.header__logo 
-	{
-		max-width: 180px;
-	}
-
-	.header-catalog__open.btn-light
-	{
-		font-size: 17px;
-		line-height: 48px;
-		padding: 0 15px 0 40px;
-	}
-
-	.header-catalog__open span
-	{
-		left: 18px;
-	}
-
-	.nav-menu__item
-	{
-		font-size: 17px;
-	}
-
-	.nav-menu__item + .nav-menu__item
-	{
-		margin-left: 15px;
-	}
-
-	.header__socials-link 
-	{
-		width: 45px;
-		height: 45px;
-	}
-
-	.header__phone
-	{
-		font-size: 18px;
-	}
-
-	.header__callback-btn.btn-green
-	{
-		font-size: 17px;
-		height: 48px;
-		line-height: 48px;
-	}
+    ._marg
+    {
+        margin-top: 60px;
+    }
 
 
-	.first-section
-	{
-		padding-bottom: 40px;
+    .main-title
+    {
+        font-size: 38px;
+    }
+
+    .header__logo
+    {
+        max-width: 180px;
+    }
+
+    .header-catalog__open.btn-light
+    {
+        font-size: 17px;
+        line-height: 48px;
+
+        padding: 0 15px 0 40px;
+    }
+
+    .header-catalog__open span
+    {
+        left: 18px;
+    }
+
+    .nav-menu__item
+    {
+        font-size: 17px;
+    }
+
+    .nav-menu__item + .nav-menu__item
+    {
+        margin-left: 15px;
+    }
+
+    .header__socials-link
+    {
+        width: 45px;
+        height: 45px;
+    }
+
+    .header__phone
+    {
+        font-size: 18px;
+    }
+
+    .header__callback-btn.btn-green
+    {
+        font-size: 17px;
+        line-height: 48px;
+
+        height: 48px;
+    }
+
+
+    .first-section
+    {
+        padding-bottom: 40px;
+    }
+
+    .first-section__img
+    {
+        top: -75px;
+
+        width: 480px;
+        height: 629px;
+        margin-right: 290px;
+    }
+
+    .first-section__banner-img
+    {
+        width: 1060px;
+        height: 620px;
+    }
+
+    .first-section__top
+    {
+        margin-bottom: 50px;
+    }
+
+    .first-section-form__input
+    {
+        font-size: 20px;
+
+        height: 60px;
+    }
+
+    .first-section-form__submit-btn
+    {
+        line-height: 60px;
+    }
+
+    .first-section__items
+    {
+        margin: 50px 0 0 -20px;
+    }
+
+    .first-section__item
+    {
+        width: calc(100% / 4 - 20px);
+        margin: 20px 0 0 20px;
+        padding: 20px;
+
+        border-radius: 24px;
+    }
+
+    .first-section__icon
+    {
+        width: 50px;
+        height: 50px;
+    }
+
+    .first-section__box
+    {
+        width: calc(100% - 70px);
+    }
+
+    .first-section__desc
+    {
+        font-size: 16px;
+    }
+
+
+    .communications__item
+    {
+        padding: 30px;
+
+        border-radius: 24px;
+    }
+
+	.communications__top{
+		max-width: 63%;
 	}
 
-	.first-section__img
-	{
-		width: 480px;
-		height: 629px;
-		top: -75px;
-		margin-right: 290px;
+	.communications__top {
+		max-width: 60%;
 	}
 
-	.first-section__banner-img
-	{
-		width: 1060px;
-		height: 620px;
-	}
+    .communications__name
+    {
+        font-size: 22px;
+    }
+
+
+    .advantages__item
+    {
+        padding: 30px;
+
+        border-radius: 24px;
+    }
+
+    .advantages__icon
+    {
+        width: 70px;
+        height: 70px;
+    }
 
 	.first-section__title
 	{
@@ -115,162 +188,85 @@
 		margin-bottom: 50px;
 	}
 
-	.first-section-form__input
-	{
-		font-size: 19px;
-		height: 54px;
-	}
+    .advantages__name
+    {
+        font-size: 23px;
 
-	.first-section-form__submit-btn
-	{
-		line-height: 54px;
-	}
-
-	.first-section__items
-	{
-		margin: 50px 0 0 -20px;
-	}
-
-	.first-section__item
-	{
-		border-radius: 24px;
-		padding: 20px;
-
-		width: calc(100% / 4 - 20px);
-		margin: 20px 0 0 20px;
-	}
-
-	.first-section__icon
-	{
-		width: 50px;
-		height: 50px;
-	}
-
-	.first-section__box 
-	{
-		width: calc(100% - 70px);
-	}
-
-	.first-section__desc
-	{
-		font-size: 16px;
-	}
+        margin-top: 20px;
+    }
 
 
-	.communications__item
-	{
-		border-radius: 24px;
-		padding: 30px
-	}
+    .reviews__item
+    {
+        padding: 30px;
 
-	.communications__name
-	{
-		font-size: 28px;
-	}
+        border-radius: 24px;
+    }
 
-	.communications__img
-	{
-		padding-top: 80px;
-	}
+    .reviews__top
+    {
+        font-size: 26px;
+    }
 
+    .reviews__icon
+    {
+        width: 26px;
+        height: 26px;
+    }
 
-	.advantages__item
-	{
-		border-radius: 24px;
-		padding: 30px;
-	}
+    .reviews__bot
+    {
+        font-size: 15px;
+    }
 
-	.advantages__icon
-	{
-		width: 70px;
-		height: 70px;
-	}
-
-	.advantages__name 
-	{
-		font-size: 23px;
-		margin-top: 20px;
-	}
+    .reviews__video::after
+    {
+        width: 90px;
+        height: 90px;
+        margin: -45px 0 0 -45px;
+    }
 
 
-	.reviews__item
-	{
-		border-radius: 24px;
-		padding: 30px;
-	}
+    .main-about__title
+    {
+        font-size: 48px;
+    }
 
-	.reviews__top
-	{
-		font-size: 26px;
-	}
+    .main-about__desc
+    {
+        font-size: 19px;
+    }
 
-	.reviews__icon
-	{
-		width: 26px;
-		height: 26px;
-	}
-
-	.reviews__bot
-	{
-		font-size: 15px;
-	}
-
-	.reviews__video::after
-	{
-		width: 90px;
-		height: 90px;
-
-		margin: -45px 0 0 -45px;
-	}
+    .brigadiers__name
+    {
+        font-size: 28px;
+    }
 
 
-	.main-about__title
-	{
-		font-size: 48px;
-	}
-
-	.main-about__desc
-	{
-		font-size: 19px;
-	}
-
-	.brigadiers__name
-	{
-		font-size: 28px;
-	}
+    .brigadiers__photo
+    {
+        border-radius: 24px;
+    }
 
 
-	.brigadiers__photo
-	{
-		border-radius: 24px;
-	}
+    .brands__brand-img
+    {
+        border-radius: 24px;
+    }
+
+    .brands__brand
+    {
+        font-size: 18px;
+    }
 
 
-	.brands__brand-img
-	{
-		border-radius: 24px;
-	}
+    .section-form__wrap,
+    .main-form
+    {
+        border-radius: 24px;
+    }
 
-	.brands__brand
-	{
-		font-size: 18px;
-	}
-
-
-	.section-form__wrap,
-	.main-form
-	{
-		border-radius: 24px;
-	}
-
-
-	.footer
-	{
-		padding-top: 60px;
-	}
-
-	.footer__info
-	{
-		padding-top: 40px;
-	}
+	/*------------
+		commit
+	------------*/
 }

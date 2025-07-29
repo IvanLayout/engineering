@@ -163,6 +163,19 @@
 	}
 
 
+	/*------------
+		commit
+	------------*/
+
+	.communications__name{
+		font-size: 18px;
+	}
+
+	.communications__link{
+		margin-top: 17px;
+	}
+
+
 	.footer__logo
 	{
 		width: 132px;

@@ -308,6 +308,41 @@
 	}
 
 
+
+	/*------------
+		commit
+	------------*/
+
+	.communications__item{
+		min-height: 293px;
+		padding: 23px 20px 28px
+	}
+
+	.communications__top{
+		max-width: none;
+		width: 100%;
+	}
+
+	.communications__desc{
+		width: calc(100% - 90px);
+	}
+
+	.communications__name {
+		font-size: 20px;
+	}
+
+	.communications__img{
+		width: 133px;
+	}
+
+	.communications__item .btn-green{
+		line-height: 46px;
+		width: auto;
+		min-width: 170px;
+		font-size: 14px;
+	}
+
+
 	.footer-menu__col
 	{
 		width: calc(100% / 2 - 30px);
