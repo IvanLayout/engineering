@@ -42,6 +42,42 @@
 	}
 
 
+	.first-section__wrap
+	{
+		padding-bottom: 278px;
+	}
+
+	.first-section__banner-img
+	{
+		margin-left: -234px;
+		width: 480px;
+		height: 278px;
+	}
+
+	.first-section__banner-img img
+	{
+		min-width: 480px;
+	}
+
+	.first-section-form__flex
+	{
+		margin-bottom: 20px;
+	}
+
+	.first-section-form__agree
+	{
+		font-size: 13px;
+	}
+
+	
+
+	.first-section__desc
+	{
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+
 	.stocks__img span
 	{
 		padding-bottom: 64.11%;

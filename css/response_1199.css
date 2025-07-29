@@ -116,17 +116,6 @@
 		font-size: 16px;
 	}
 
-	.first-section-form__field
-	{
-		min-width: 1px;
-		width: 100%;
-	}
-
-	.first-section-form__submit-btn
-	{
-		flex-shrink: 0;
-	}
-
 	.first-section__items
 	{
 		margin-left: -15px;

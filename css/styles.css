@@ -2588,7 +2588,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
     opacity: .7;
 }
 
-.first-section-form
+.first-section__bot
 {
     margin-top: 40px;
 }
