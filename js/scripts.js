@@ -92,9 +92,8 @@ $(() => {
 	if ($('.advantages__slider').length) {
 		new Swiper(".advantages__slider", {
 			loop: true,
-			spaceBetween: 30,
-			slidesPerView: 3,
-			speed: 800,
+			spaceBetween: 20,
+			slidesPerView: 'auto',
 			watchSlidesProgress: true,
 			watchOverflow: true,
 			preloadImages: false,
@@ -146,9 +145,8 @@ $(() => {
 	if ($('.reviews__slider').length) {
 		new Swiper(".reviews__slider", {
 			loop: true,
-			spaceBetween: 30,
-			slidesPerView: 3,
-			speed: 800,
+			spaceBetween: 20,
+			slidesPerView: 'auto',
 			watchSlidesProgress: true,
 			watchOverflow: true,
 			preloadImages: false,
@@ -219,6 +217,59 @@ $(() => {
 				clickableClass: 'slider-pagination-clickable',
 				el: '.slider-pagination',
 				clickable: true
+			},
+			on: {
+				init: function (swiper) {
+					$(swiper.el).find('.swiper-wrapper').wrap('<div class="swiper-overflow"></div>')
+				},
+			}
+		})
+	}
+
+	if ($('.products__slider').length) {
+		new Swiper(".products__slider", {
+			loop: false,
+			spaceBetween: 20,
+			slidesPerView: 1,
+			watchSlidesProgress: true,
+			watchOverflow: true,
+			preloadImages: false,
+			lazy: {
+				loadPrevNext: true,
+				elementClass: 'lazyload',
+				enabled: true,
+				loadedClass: 'loaded',
+				checkInView: true,
+				loadOnTransitionStart: true
+			},
+			navigation: {
+				nextEl: '.slider-button-next',
+				prevEl: '.slider-button-prev'
+			},breakpoints: {
+				'320': {
+					spaceBetween: 20,
+					slidesPerView: 1
+				},
+				'480': {
+					spaceBetween: 20,
+					slidesPerView: 2
+				},
+				'768': {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				},
+				'1024': {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				},
+				'1025': {
+					spaceBetween: 20,
+					slidesPerView: 3,
+				},
+				'1300': {
+					spaceBetween: 30,
+					slidesPerView: 3,
+				}
 			},
 			on: {
 				init: function (swiper) {
@@ -302,16 +353,10 @@ function productsHeight(context, step) {
 	let finish   = step
 	let products = context.find('.product')
 
-	products.find('.product__name').height('auto')
-	products.find('.product__box').height('auto')
-	products.find('.product__info').height('auto')
-	products.find('.product__prices').height('auto')
+	products.find('.product__top').height('auto')
 
 	for (let i = 0; i < products.length; i++) {
-		setHeight(products.slice(start, finish).find('.product__name'))
-		setHeight(products.slice(start, finish).find('.product__box'))
-		setHeight(products.slice(start, finish).find('.product__info'))
-		setHeight(products.slice(start, finish).find('.product__prices'))
+		setHeight(products.slice(start, finish).find('.product__top'))
 
 		start  = start + step
 		finish = finish + step

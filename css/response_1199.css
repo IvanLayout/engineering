@@ -395,6 +395,8 @@
 	{
 		padding-top: 30px;
 		padding-bottom: 40px;
+
+		min-height: 1px;
 	}
 
 	.section-grid__icon
@@ -555,6 +557,62 @@
 
 	.innre-banner__btn{
 		margin-top: 20px;
+	}
+
+	.text-block table th{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.text-block table td{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.main-subtitle br{
+		display: none;
+	}
+
+
+	.product__stickers {
+		padding: 14px 20px 0 14px;
+	}
+
+	.product__sticker {
+		margin: 4px 0 0 4px;
+		font-size: 14px;
+		padding: 0 8px;
+		line-height: 26px;
+	}
+
+	.product__top{
+		margin-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.product__name {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+	.product__prices{
+		font-size: 14px;
+        line-height: 24px;
+	}
+
+	.product__desc{
+		font-size: 14px;
+		margin-top: 12px;
+		max-width: none;
+	}
+
+	.product__feature {
+        font-size: 14px;
+		margin-top: 12px;
+    }
+
+	.product__feature-val{
+		width: 140px;
 	}
 
 

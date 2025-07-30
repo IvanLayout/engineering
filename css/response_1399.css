@@ -387,4 +387,9 @@
         height: 90px;
         margin: -45px 0 0 -45px;
 	}
+
+
+	.text-block_marg{
+		margin-top: 40px;
+	}
 }

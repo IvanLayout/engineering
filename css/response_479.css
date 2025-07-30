@@ -385,6 +385,62 @@
 		background-position: calc(50% + 2px) 50%;
 	}
 
+	.catalog__item {
+		width: calc(100% - 20px);
+	}
+
+	.catalog__sticker{
+		top: 24px;
+		left: 20px;
+	}
+
+	.catalog__brand img{
+		max-width: 180px;
+	}
+
+	.catalog__name{
+		font-size: 14px;
+	}
+
+
+	.product__img{
+		height: calc(100% + 40px);
+		margin-bottom: -40px;
+	}
+
+	.product__top{
+		flex-wrap: nowrap;
+	}
+
+	.product__name{
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.product__prices{
+		width: auto;
+		line-height: 18px;
+		padding: 0 0 0 16px;
+	}
+
+	.product__feature-item{
+		display: table-row;
+	}
+
+	.product__feature-item + .product__feature-item {
+		margin-top: 0;
+	}
+
+	.product__feature-name{
+		display: table-cell;
+	}
+	
+	.product__feature-val{
+		width: auto;
+		display: table-cell;
+		padding: 0 0 0 16px;
+	}
+
 
 	.footer__logo
 	{

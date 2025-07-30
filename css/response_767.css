@@ -546,8 +546,16 @@
 		padding: 46px 0 33px;
 	}
 
+	.innre-banner__box._middle{
+		padding-bottom: 0;
+	}
+
 	.innre-banner .page-title{
 		max-width: 84%;
+	}
+
+	.innre-banner__box._middle .page-title {
+		max-width: none;
 	}
 
 	.innre-banner__text{
@@ -567,6 +575,15 @@
         margin-right: -20px;
     }
 
+	.innre-banner__colr._middle{
+		width: calc(100% + 40px);
+	}
+
+	.innre-banner__img{
+		margin-top: 0;
+		min-height: 100%;
+	}
+
 	.innre-banner__img img{
 		max-width: 600px;
 	}
@@ -578,6 +595,11 @@
 		margin: -22px 0 0 -22px;
 		background-size: 15px auto;
 		background-position: calc(50% + 1px) 50%;
+	}
+
+
+	.catalog__item {
+		width: calc(100% / 2 - 20px);
 	}
 
 	
