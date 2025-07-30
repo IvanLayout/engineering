@@ -602,6 +602,10 @@
 		width: calc(100% / 2 - 20px);
 	}
 
+	.products__grid{
+		--products_count: 2;
+	}
+
 	
 	.footer
 	{

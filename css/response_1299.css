@@ -287,6 +287,12 @@
 	}
 
 
+	.products__grid{
+		--products_marg: 20px;
+		margin-top: 20px;
+	}
+
+
 	.footer__coll 
 	{
 		width: 335px;

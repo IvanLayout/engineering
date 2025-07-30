@@ -441,6 +441,10 @@
 		padding: 0 0 0 16px;
 	}
 
+	.products__grid{
+		--products_count: 1;
+	}
+
 
 	.footer__logo
 	{
