@@ -6,6 +6,11 @@
 		padding-bottom: 106px;
 	}
 
+	._marg
+	{
+		margin-top: 40px;
+	}
+
 	.text-block h1, 
 	.text-block .title 
 	{
@@ -372,6 +377,159 @@
 	}
 
 
+	.inner-info__items
+	{
+		align-items: flex-start;
+		align-content: flex-start;
+	}
+
+	.inner-info__item 
+	{
+		width: calc(100% / 2 - 10px);
+	}
+
+
+	.ways-info__item
+	{
+		padding-top: 25px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.ways-info__title 
+	{
+		font-size: 24px;
+	}
+
+	.ways-info__flex
+	{
+		margin-top: 20px;
+	}
+
+	.ways-info__img 
+	{
+		width: calc(40.14% - 10px);
+	}
+
+	.ways-info__info 
+	{
+		width: calc(59.86% - 10px);
+	}
+
+	.ways-info__list
+	{
+		column-width: 180px;
+	}
+
+	.ways-info__list li::before
+	{
+		width: 4px;
+		height: 4px;
+	}
+
+	.ways-info__small-title 
+	{
+		font-size: 20px;
+	}
+
+	.ways-info__price 
+	{
+		font-size: 23px;
+	}
+
+
+	.section-result__name
+	{
+		font-size: 18px;
+	}
+
+	.section-result__desc
+	{
+		font-size: 16px;
+	}
+
+	
+	.key-factors__item
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.key-factors__icon
+	{
+		width: 40px;
+		height: 40px;
+	}
+
+	.key-factors__info 
+	{
+		width: calc(100% - 60px);
+	}
+
+	.key-factors__desc
+	{
+		font-size: 16px;
+	}
+
+
+	.section-grid__item
+	{
+		padding: 20px 20px 30px;
+	}
+
+	.section-grid__title 
+	{
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.section-grid__desc
+	{
+		font-size: 16px;
+	}
+
+
+	.accordion__title
+	{
+		font-size: 20px;
+	}
+
+	.accordion__data
+	{
+		padding-top: 10px;
+		padding-bottom: 25px;
+	}
+
+
+	.articles__item
+	{
+		padding: 20px 20px 25px;
+	}
+
+	.articles__title 
+	{
+		font-size: 22px;
+	}
+
+	.articles__copy-link
+	{
+		width: 37px;
+		height: 37px;
+		background: rgba(77, 189, 60, 1);
+	}
+
+	.articles__copy-link svg
+	{
+		width: 15px;
+		height: 16px;
+		fill: #fff;
+		stroke: #fff;
+	}
+
+	.articles__link
+	{
+		font-size: 16px;
+	}
 	/*------------
 		commit
 	------------*/

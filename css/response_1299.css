@@ -203,6 +203,46 @@
 		margin-top: 15px;
 	}
 
+
+	.section-result__name
+	{
+		font-size: 23px;
+	}
+
+
+	.key-factors__item
+	{
+		padding: 30px;
+	}
+
+	.key-factors__info 
+	{
+		width: calc(100% - 80px);
+	}
+
+
+	.section-grid__title 
+	{
+		font-size: 23px;
+	}
+
+	.section-grid__item
+	{
+		padding: 40px 30px 50px;
+	}
+
+
+	.accordion__title 
+	{
+		font-size: 26px;
+	}
+
+
+	.articles__title 
+	{
+		font-size: 32px;
+	}
+
 	/*------------
 		commit
 	------------*/

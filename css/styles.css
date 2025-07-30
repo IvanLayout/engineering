@@ -3382,8 +3382,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	column-count: 2;
     column-width: 250px;
     column-gap: 15px;
-
-	/* max-width: 515px; */
 }
 
 .ways-info__list li
@@ -3713,7 +3711,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
-	margin-top: 45px;
+	margin-top: 15px;
 }
 
 .articles__item
@@ -3726,6 +3724,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	display: flex;
 	flex-direction: column;
 	min-height: 425px;
+	margin-top: 30px;
 }
 
 .articles__box

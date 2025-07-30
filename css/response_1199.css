@@ -209,6 +209,12 @@
 		max-width: 460px;
 	}
 
+	.main-form__desc
+	{
+		font-size: 17px;
+		margin-top: 15px;
+	}
+
 
 	.specialization__grid
 	{
@@ -268,6 +274,231 @@
 		max-width: 100%;
 	}
 
+
+	.inner-info__desc 
+	{
+		font-size: 17px;
+		margin-top: 20px;
+	}
+
+
+	.ways-info__item + .ways-info__item
+	{
+		margin-top: 20px;
+	}
+
+	.ways-info__item
+	{
+		padding: 30px;
+	}
+
+	.ways-info__title
+	{
+		font-size: 28px;
+	}
+
+	.ways-info__desc
+	{
+		margin-top: 14px;
+	}
+
+	.ways-info__info
+	{
+		width: calc(59.86% - 10px);
+	}
+
+	.ways-info__small-title
+	{
+		font-size: 22px;
+	}
+
+	.ways-info__list
+	{
+		margin-top: 10px;
+	}
+
+	.ways-info__list li
+	{
+		padding-left: 16px;
+	}
+
+	.ways-info__list li::before
+	{
+		top: 11px;
+	}
+
+	.ways-info__price
+	{
+		font-size: 26px;
+	}
+
+	.ways-info__bot
+	{
+		margin-top: 20px;
+	}
+
+	.ways-info__note
+	{
+		margin-top: 15px;
+	}
+
+
+	.section-result__items 
+	{
+		margin-top: 0;
+		margin-left: -20px;
+	}
+
+	.section-result__item 
+	{
+		width: calc(100% / 3 - 20px);
+		margin-left: 20px;
+	}
+
+	.section-result__name
+	{
+		margin-top: 24px;
+		font-size: 21px;
+	}
+
+	.section-result__desc 
+	{
+		font-size: 17px;
+		margin-top: 10px;
+	}
+
+
+	.key-factors__grid
+	{
+		margin-top: 10px;
+	}
+
+	.key-factors__item 
+	{
+		width: calc(50% - 10px);
+		margin-top: 20px;
+	}
+
+	.key-factors__title
+	{
+		font-size: 18px;
+	}
+
+
+	.section-grid__grid
+	{
+		gap: 20px;
+		margin-top: 30px;
+	}
+
+	.section-grid__item
+	{
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
+
+	.section-grid__icon
+	{
+		width: 64px;
+		height: 64px;
+	}
+
+	.section-grid__title 
+	{
+		font-size: 19px;
+		margin-top: 20px;
+	}
+
+	.section-grid__desc 
+	{
+		font-size: 17px;
+		margin-top: 8px;
+	}
+
+
+	.accordion
+	{
+		margin-top: 30px;
+	}
+
+	.accordion__item + .accordion__item 
+	{
+		margin-top: 15px;
+	}
+
+
+	.accordion__title 
+	{
+		font-size: 22px;
+		padding-right: 120px;
+		padding-left: 30px;
+	}
+
+	.faq__plus-minus
+	{
+		width: 48px;
+		height: 48px;
+		margin-top: -24px;
+	}
+
+	.faq__plus-minus::before
+	{
+		width: 2px;
+		height: 15px;
+	}
+
+	.faq__plus-minus::after
+	{
+		width: 15px;
+		height: 2px;
+	}
+
+	.accordion__data 
+	{
+		padding: 15px 30px 30px;
+	}
+
+
+	.articles__grid
+	{
+		margin-top: 10px;
+	}
+
+	.articles__item
+	{
+		width: calc(50% - 10px);
+		margin-top: 20px;
+		padding: 30px;
+		min-height: 1px;
+	}
+
+	.articles__box
+	{
+		padding-right: 70px;
+	}
+
+	.articles__title 
+	{
+		font-size: 26px;
+	}
+
+	.articles__desc
+	{
+		font-size: 17px;
+		margin-top: 11px;
+	}
+
+	.articles__link
+	{
+		font-size: 17px;
+		margin-top: 15px;
+	}
+
+	
+	.section-form__border
+	{
+		display: none;
+	}
 	/*------------
 		commit
 	------------*/

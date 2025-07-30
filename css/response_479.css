@@ -265,6 +265,77 @@
 	}
 
 
+	.inner-info__desc
+	{
+		font-size: 16px;
+	}
+
+
+	.ways-info__title
+	{
+		font-size: 21px;
+	}
+
+	.ways-info__list 
+	{
+		column-width: 100%;
+	}
+
+	.ways-info__list li 
+	{
+		padding-left: 14px;
+	}
+
+	.ways-info__list li::before 
+	{
+		top: 10px;
+	}
+
+	.ways-info__note
+	{
+		font-size: 16px;
+	}
+
+
+	.section-result__items
+	{
+		margin-left: 0;
+	}
+
+	.section-result__item
+	{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.section-result__img
+	{
+		padding-bottom: 56.2%;
+	}
+
+
+	.key-factors__item
+	{
+		padding-right: 30px;
+	}
+
+
+	.accordion__title
+	{
+		font-size: 16px;
+	}
+
+
+	.articles__title 
+	{
+		font-size: 18px;
+	}
+
+	.articles__desc,
+	.articles__link
+	{
+		font-size: 14px;
+	}
 	/*------------
 		commit
 	------------*/
