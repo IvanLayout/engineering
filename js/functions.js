@@ -223,6 +223,25 @@ $(() => {
 			$('body').addClass('_lock')
 		}
 	})
+
+	// Аккордион
+	$('body').on('click', '.accordion__title', function(e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.accordion__item')
+		let accordion = $(this).closest('.accordion')
+
+		if( parent.hasClass('active') ) {
+			parent.removeClass('active')
+			parent.find('.accordion__data').slideUp(300)
+		} else {
+			accordion.find('.accordion__item').removeClass('active')
+			accordion.find('.accordion__data').slideUp(300)
+
+			parent.addClass('active')
+			parent.find('.accordion__data').slideDown(300)
+		}
+	})
 })
 
 
