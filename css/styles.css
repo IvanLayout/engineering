@@ -3512,6 +3512,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	grid-column: span 3;
 }
 
+.section-grid__item.item-very-big
+{
+	grid-column: span 4;
+}
+
 .section-grid__item-empty
 {
 	background: none;
@@ -3557,6 +3562,25 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	line-height: 1.26;
 	margin-top: 11px;
 	opacity: .65;
+}
+
+.section-grid__item-empty .section-grid__desc
+{
+	text-align: center;
+	margin-top: 0;
+	max-width: 550px;
+	opacity: 1;
+}
+
+.section-grid__item-empty .section-grid__btn
+{
+	width: 100%;
+	text-align: center;
+}
+
+.section-grid__item-empty .section-grid__desc + .section-grid__btn
+{
+	margin-top: 40px;
 }
 
 

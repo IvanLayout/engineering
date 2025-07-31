@@ -453,9 +453,15 @@
 	}
 	
 	.section-grid__item,
-	.section-grid__item.item-big 
+	.section-grid__item.item-big,
+	.section-grid__item.item-very-big
 	{
 		grid-column: span 1;
+	}
+
+	.section-grid__item-empty
+	{
+		padding: 20px;
 	}
 
 	.section-grid__item
