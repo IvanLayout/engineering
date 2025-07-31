@@ -498,4 +498,8 @@
 	.innre-banner__box._small .page-title br{
 		display: none;
 	}
+
+	.innre-banner__box_pad{
+		padding-bottom: 41px;
+	}
 }

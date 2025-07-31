@@ -816,6 +816,10 @@
 		border-radius: 8px;
 	}
 
+	.innre-banner__colr._small-small{
+		width: 46%;
+	}
+
 
 	.footer
 	{
