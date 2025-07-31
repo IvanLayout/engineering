@@ -420,6 +420,20 @@
 	{
 		padding-bottom: 64.11%;
 	}
+
+
+	.btn-box
+	{
+		margin-top: 20px;
+	}
+
+	.btn-box a
+	{
+		padding: 0 27px;
+		width: auto;
+		font-size: 14px;
+		line-height: 46px;
+	}
 	/*------------
 		commit
 	------------*/
