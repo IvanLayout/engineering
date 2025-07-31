@@ -477,6 +477,16 @@
 		padding: 20px 20px 30px;
 	}
 
+	.section-grid__item-empty
+	{
+		padding: 10px;
+	}
+
+	.section-grid__item-empty .btn-green
+	{
+		padding: 0 15px;
+	}
+
 	.section-grid__title 
 	{
 		font-size: 18px;
@@ -551,6 +561,29 @@
 	.stages__icon
 	{
 		margin-top: 15px;
+	}
+
+
+	.solutions__desc
+	{
+		width: calc(100% - 65px);
+		font-size: 16px;
+		margin-left: 15px;
+	}
+
+	.solutions__coll 
+	{
+		width: calc(50% - 10px);
+	}
+
+	.solutions__colr 
+	{
+		width: calc(50% - 10px);
+	}
+
+	.solutions__info
+	{
+		font-size: 16px;
 	}
 	/*------------
 		commit

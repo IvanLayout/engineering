@@ -3501,19 +3501,15 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .section-grid__item
 {
 	grid-column: span 2;
+	background: #F4F6FB;
+	border-radius: 30px;
+	padding: 40px;
+	min-height: 347px;
 }
 
 .section-grid__item.item-big
 {
 	grid-column: span 3;
-}
-
-.section-grid__item
-{
-	background: #F4F6FB;
-	border-radius: 30px;
-	padding: 40px 40px;
-	min-height: 347px;
 }
 
 .section-grid__item-empty
@@ -3894,8 +3890,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .section-info__cols
 {
 	justify-content: space-between;
-	align-items: center;
-	align-content: center;
+	margin-top: 45px;
 }
 
 .section-info__coll
@@ -3906,11 +3901,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .section-info__colr
 {
 	width: calc(59.58% - 30px);
-}
-
-.section-info .text-block
-{
-	margin-top: 45px;
 }
 
 .section-info__img

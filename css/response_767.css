@@ -458,6 +458,11 @@
 		grid-column: span 1;
 	}
 
+	.section-grid__item
+	{
+		min-height: 200px;
+	}
+
 
 	.accordion__title
 	{
@@ -535,6 +540,52 @@
 		margin-top: 15px;
 	}
 
+
+	.section-info__coll
+	{
+		width: 100%;
+	}
+
+	.section-info__colr
+	{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+
+	.pagination
+	{
+		margin-top: 25px;
+	}
+
+	.pagination__flex 
+	{
+		width: 100%;
+		justify-content: center;
+	}
+
+	.pagination__link
+	{
+		margin-right: auto;
+		margin-top: 25px;
+	}
+
+
+	.solutions__flex
+	{
+		margin-top: 20px;
+	}
+
+	.solutions__coll
+	{
+		width: 100%;
+	}
+
+	.solutions__colr
+	{
+		width: 100%;
+		margin-top: 30px;
+	}
 	/*------------
 		commit
 	------------*/

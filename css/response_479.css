@@ -12,6 +12,30 @@
 	}
 
 
+	.text-block ul li
+	{
+		padding-left: 20px;
+	}
+
+	.text-block ul li:before
+	{
+		left: 4px;
+	}
+
+
+	.pagination__flex a
+	{
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+	}
+
+	.pagination__link
+	{
+		width: 100%;
+	}
+
+
 	.btn-green, 
 	.btn-light
 	{
@@ -370,6 +394,36 @@
 		font-size: 14px;
 		text-align: left;
 		line-height: 1.29;
+	}
+
+
+	.section-info__cols
+	{
+		margin-top: 20px;
+	}
+
+
+	.section-grid__item-empty
+	{
+		padding: 20px;
+	}
+
+	.section-grid__btn
+	{
+		width: 100%;
+	}
+
+
+	.solutions__icon
+	{
+		width: 45px;
+		height: 45px;
+		padding: 12px;
+	}
+
+	.solutions__img
+	{
+		padding-bottom: 64.11%;
 	}
 	/*------------
 		commit

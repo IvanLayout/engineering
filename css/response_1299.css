@@ -291,6 +291,28 @@
 		height: 70px;
 	}
 
+
+	.solutions__info
+	{
+		font-size: 19px;
+	}
+
+	.solutions__items
+	{
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+
+	.solutions__item + .solutions__item 
+	{
+		margin-top: 18px;
+	}
+
+	.solutions__desc
+	{
+		font-size: 19px;
+	}
+
 	/*------------
 		commit
 	------------*/
