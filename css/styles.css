@@ -843,6 +843,12 @@ button
     text-align: center;
 }
 
+.btn-box
+{
+	text-align: left;
+	margin-top: 30px;
+}
+
 .btn-green
 {
     position: relative;
@@ -865,6 +871,12 @@ button
     background: rgba(77, 189, 60, 1);
 
     transition: background .2s linear;
+}
+
+.btn-green__big
+{
+	line-height: 70px;
+	padding: 0 60px;
 }
 
 .btn-light
