@@ -4703,7 +4703,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 .innre-banner__colr._small{
-    width: 47%;
+    width: 46%;
     padding-left: 20px;
     margin-right: 0;
 }
@@ -4711,6 +4711,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .innre-banner__colr._small-small{
 	width: 43%;
 	margin-right: -21px;
+}
+
+.innre-banner__colr._small2{
+	margin-right: -66px;
+	width: 54.61%;
 }
 
 .innre-banner__img{
@@ -4771,6 +4776,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	max-width: 809px;
 }
 
+.innre-banner__box._no-max{
+	max-width: none;
+}
+
 .innre-banner__page-title{
 	max-width: 710px;
 }
@@ -4798,6 +4807,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	color: #051824;
 	max-width: 690px;
 	padding-right: 40px;
+}
+
+.innre-banner__text._no-pad{
+	padding-right: 0;
 }
 
 .innre-banner__text_h{
@@ -5539,6 +5552,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 	.innre-banner__info{
 		margin-bottom: 40px;
+	}
+
+	.innre-banner__colr._small2{
+		margin-right: 0;
+		width: 47%
 	}
 
 	.page-title{

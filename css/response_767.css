@@ -692,7 +692,7 @@
 		padding-right: 20px;
 	}
 
-	.innre-banner__colr._middle2 picture {
+	.innre-banner__img picture {
 		width: auto;
 	}
 
@@ -701,7 +701,16 @@
 		max-width: 100%;
 	}
 
+	.innre-banner__colr._small2 img{
+		width: auto;
+		max-width: 100%;
+	}
+
 	.innre-banner__colr._middle2 .innre-banner__img{
+		justify-content: center;
+	}
+
+	.innre-banner__colr._small2 .innre-banner__img{
 		justify-content: center;
 	}
 
@@ -724,6 +733,14 @@
 
 	.innre-banner__img img{
 		max-width: 600px;
+	}
+
+	.innre-banner__colr._small .innre-banner__img img{
+		margin: 0 auto;
+	}
+
+	.innre-banner__colr._small2{
+		width: calc(100% + 40px);
 	}
 
 
