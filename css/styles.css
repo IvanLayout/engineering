@@ -2966,24 +2966,25 @@ input[type=checkbox]:checked + .checkbox-btn__text
     overflow: hidden;
 
     height: auto;
-    padding: 35px 35px 40px;
-
+    
     letter-spacing: -.01em;
 
     border-radius: 30px;
-    background: #FFF;
+}
+
+.reviews__wrap
+{
+	padding: 35px 35px 40px;
+	background: #FFF;
+	height: 100%;
 }
 
 .reviews__video
 {
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background: rgba(0, 0, 0, .2);
+    position: relative;
+	display: block;
+	padding-bottom: 69.334%;
+	height: 100%;
 }
 
 .reviews__video::after
