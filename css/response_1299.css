@@ -368,6 +368,11 @@
 	}
 
 
+	._small-text {
+        font-size: 14px;
+    }
+
+
 	.footer__coll 
 	{
 		width: 335px;
