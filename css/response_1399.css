@@ -479,4 +479,23 @@
 	.text-block_marg{
 		margin-top: 40px;
 	}
+
+	.tabs-container_marg{
+		margin-top: 26px;
+	}
+
+	.tabs_marg{
+		margin-bottom: 36px;
+	}
+
+	.tabs__btn{
+		font-size: 18px;
+		padding-left: 24px;
+		padding-right: 24px;
+		min-height: 56px;
+	}
+
+	.innre-banner__box._small .page-title br{
+		display: none;
+	}
 }
