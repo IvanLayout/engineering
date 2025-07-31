@@ -447,6 +447,10 @@
 	/*------------
 		commit
 	------------*/
+    .innre-banner__flex{
+        min-height: 1px;
+    }
+
     .innre-banner__info {
         margin-bottom: 30px;
     }
