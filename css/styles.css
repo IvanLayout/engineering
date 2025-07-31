@@ -935,6 +935,8 @@ button
     margin-bottom: 25px;
 
     letter-spacing: -.01em;
+
+	line-height: 1.5;
 }
 
 .text-block img
@@ -3109,6 +3111,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .ways-info__img
 {
 	width: calc(40.14% - 25px);
+	display: block;
+	text-decoration: none;
 }
 
 .ways-info__img span
@@ -3131,7 +3135,17 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	width: 100%;
 	height: 100%;
 
+	transition: transform .4s linear, opacity .5s linear;
+
 	object-fit: cover;
+}
+
+@media (any-hover: hover)
+{
+    .ways-info__img:hover img
+    {
+        transform: scale(1.02);
+    }
 }
 
 .ways-info__info
@@ -3407,16 +3421,19 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	font-weight: 500;
 	line-height: 1.25;
 	letter-spacing: -.02em;
-}
 
-.faq__name
-{
-	max-width: 1130px;
+	min-height: 115px;
+
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	align-content: center;
 	flex-wrap: wrap;
+}
+
+.faq__name
+{
+	max-width: 1130px;
 }
 
 .faq__plus-minus
@@ -3476,13 +3493,12 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .accordion__data
 {
 	display: none;
-	padding: 25px 40px 40px;
+	padding: 5px 40px 40px;
 }
 
-.faq__desc
+.faq .text-block
 {
-	line-height: 1.3;
-	letter-spacing: -.02em;
+	max-width: 1170px;
 }
 
 
