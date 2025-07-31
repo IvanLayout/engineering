@@ -7,6 +7,11 @@
 		font-size: 44px;
 	}
 
+	.text-block p
+	{
+		margin-bottom: 20px;
+	}
+
 	.main-title
 	{
 		font-size: 34px;
@@ -236,6 +241,54 @@
 	.articles__title 
 	{
 		font-size: 32px;
+	}
+
+
+	.stages__title
+	{
+		font-size: 26px;
+		margin-top: 25px;
+	}
+
+	.stages__grid
+	{
+		margin: 10px 0 0 -20px;
+	}
+
+	.stages__item
+	{
+		width: calc(100% / 3 - 20px);
+		margin: 20px 0 0 20px;
+		min-height: 380px;
+	}
+
+	.stages__number 
+	{
+		font-size: 40px;
+		top: -5px;
+	}
+
+	.stages__name 
+	{
+		padding-right: 70px;
+		font-size: 21px;
+	}
+
+	.stages__desc
+	{
+		font-size: 18px;
+	}
+
+	.stages__info
+	{
+		font-size: 18px;
+		margin-top: 30px;
+	}
+
+	.stages__icon 
+	{
+		width: 70px;
+		height: 70px;
 	}
 
 	/*------------

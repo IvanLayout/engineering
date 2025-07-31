@@ -503,6 +503,42 @@
 	{
 		display: none;
 	}
+
+
+	.stages__title 
+	{
+		font-size: 24px;
+		margin-top: 20px;
+	}
+
+	.stages__item
+	{
+		padding: 25px;
+		min-height: 360px;
+	}
+
+	.stages__name 
+	{
+		padding-right: 65px;
+		font-size: 20px;
+	}
+
+	.stages__number
+	{
+		font-size: 38px;
+	}
+
+	.stages__desc,
+	.stages__info
+	{
+		font-size: 16px;
+	}
+
+	.stages__icon 
+	{
+		width: 64px;
+		height: 64px;
+	}
 	/*------------
 		commit
 	------------*/

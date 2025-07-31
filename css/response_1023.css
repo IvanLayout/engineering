@@ -529,6 +529,29 @@
 	{
 		font-size: 16px;
 	}
+
+
+	.stages .text-block
+	{
+		font-size: 18px;
+		margin-top: 20px;
+	}
+
+	.stages__title
+	{
+		font-size: 22px;
+	}
+
+	.stages__item
+	{
+		width: calc(100% / 2 - 20px);
+		min-height: 330px;
+	}
+
+	.stages__icon
+	{
+		margin-top: 15px;
+	}
 	/*------------
 		commit
 	------------*/

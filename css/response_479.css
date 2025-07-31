@@ -336,6 +336,41 @@
 	{
 		font-size: 14px;
 	}
+
+
+	.stages__title
+	{
+		font-size: 18px;
+	}
+
+	.stages__item
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.stages__name
+	{
+		font-size: 18px;
+	}
+
+	.stages__number 
+	{
+		font-size: 32px;
+		top: -5px;
+	}
+
+	.stages__desc
+	{
+		font-size: 14px;
+	}
+
+	.stages__info 
+	{
+		font-size: 14px;
+		text-align: left;
+		line-height: 1.29;
+	}
 	/*------------
 		commit
 	------------*/

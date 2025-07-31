@@ -995,6 +995,21 @@ button
 }
 
 
+.text-block a
+{
+	text-decoration: none;
+	color: #4DBD3C;
+	border-bottom: 1px solid transparent;
+	transition: border .2s linear;
+}
+
+@media (any-hover: hover)
+{
+	.text-block a:hover
+	{
+		border-bottom-color: #4DBD3C;
+	}
+}
 
 /*------------------
     Form elements
@@ -3612,6 +3627,114 @@ input[type=checkbox]:checked + .checkbox-btn__text
 		fill: #fff;
 		stroke: #fff;
 	}
+}
+
+
+.stages .text-block
+{
+	max-width: 1055px;
+	font-size: 21px;
+	margin-top: 25px;
+}
+
+.stages__title
+{
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: -.02em;
+	line-height: 1.35;
+	margin-top: 33px;
+}
+
+.stages__grid
+{
+	margin: 25px 0 0 -30px;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.stages__item
+{
+	width: calc(100%/3 - 30px);
+	margin: 30px 0 0 30px;
+	border-radius: 30px;
+	background: #F4F6FB;
+	padding: 35px 40px;
+
+	display: flex;
+	flex-direction: column;
+
+	min-height: 435px;
+}
+
+.stages__box
+{
+	position: relative;
+	flex: 1 0 auto;
+}
+
+.stages__number
+{
+	position: absolute;
+	top: -8px;
+	right: 0;
+
+	display: block;
+
+	font-size: 44px;
+	font-weight: 500;
+	letter-spacing: -.01em;
+	line-height: normal;
+	opacity: .2;
+}
+
+.stages__name
+{
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: -.01em;
+	padding-right: 100px;
+	line-height: 1.2;
+}
+
+.stages__desc
+{
+	font-size: 21px;
+	letter-spacing: -.01em;
+	opacity: .65;
+	margin-top: 12px;
+	line-height: 1.26;
+}
+
+.stages__icon
+{
+	margin-top: 25px;
+	width: 80px;
+	height: 80px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+.stages__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.stages__info
+{
+	margin: 40px auto 0;
+	max-width: 940px;
+	font-size: 21px;
+	letter-spacing: -.01em;
+	opacity: .65;
+	line-height: 1.5;
+	text-align: center;
 }
 /*------------
     commit

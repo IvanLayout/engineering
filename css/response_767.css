@@ -496,6 +496,45 @@
 	{
 		font-size: 16px;
 	}
+
+
+	.stages .text-block
+	{
+		font-size: 16px;
+	}
+
+	.stages__item 
+	{
+		width: calc(100% / 1 - 20px);
+		margin-top: 15px;
+		min-height: 1px;
+	}
+
+	.stages__title 
+	{
+		font-size: 20px;
+	}
+
+	.stages__number 
+	{
+		font-size: 34px;
+	}
+
+	.stages__icon
+	{
+		margin-top: 10px;
+	}
+
+	.stages__info br
+	{
+		display: none;
+	}
+
+	.stages .wrap-btn
+	{
+		margin-top: 15px;
+	}
+
 	/*------------
 		commit
 	------------*/
