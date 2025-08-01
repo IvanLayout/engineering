@@ -4044,6 +4044,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	width: calc(50% - 25px);
 }
 
+.solutions__coll_center{
+	align-self: center;
+}
+
 .solutions__colr 
 {
     width: calc(50% - 15px);
