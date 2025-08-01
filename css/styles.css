@@ -4067,6 +4067,236 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	object-fit: cover;
 	border-radius: 30px;
 }
+
+
+.promotion-banner__flex
+{
+	margin-top: 55px;
+	justify-content: space-between;
+	align-items: stretch;
+
+	background: #EEF9EC;
+	border-radius: 30px;
+	overflow: hidden;
+	position: relative;
+
+	padding: 44px 0 70px 49px;
+}
+
+.promotion-banner__flex::before
+{
+	content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    max-width: 877px;
+    height: 100%;
+    background: url(../images/promotion_banner_pattern.svg) 0 0 / 100% auto no-repeat;
+	opacity: .1;
+}
+
+.promotion-banner__box 
+{
+    width: calc(46% - 15px);
+    position: relative;
+}
+
+.promotion-banner__title
+{
+	font-size: 50px;
+	font-weight: 500;
+	letter-spacing: -.01em;
+	line-height: normal;
+}
+
+.promotion-banner__title span
+{
+	color: #4DBD3C;
+}
+
+.promotion-banner__desc
+{
+	margin-top: 27px;
+	font-size: 24px;
+	letter-spacing: -.01em;
+	line-height: 1.32;
+	max-width: 400px;
+}
+
+.promotion-banner__sticker
+{
+	margin-top: 50px;
+}
+
+.promotion-banner__sticker span
+{
+	display: inline-block;
+	font-weight: 500;
+	font-size: 23px;
+	letter-spacing: -0.02em;
+	color: #fff;
+	padding: 0 20px;
+	line-height: 43px;
+	border-radius: 40px;
+	background: #E52322;
+}
+
+.promotion-banner__img
+{
+    width: calc(54% - 15px);
+	padding: 0 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: flex-end;
+	flex-wrap: wrap;
+	margin-bottom: -70px;
+}
+
+.promotion-banner__img img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+
+.install-products__cols
+{
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.install-products__cols + .install-products__cols
+{
+	margin-top: 45px;
+}
+
+.install-products__col
+{
+	width: calc(50% - 15px);
+}
+
+.install-products .text-block
+{
+	max-width: 615px;
+	font-size: 21px;
+}
+
+.install-products .text-block p
+{
+	line-height: 1.4;
+}
+
+.install-products__items
+{
+	margin-top: 40px;
+}
+
+.install-products__item
+{
+	justify-content: space-between;
+
+	background: #EEF9EC;
+	border-radius: 30px;
+	padding: 33px 38px 32px;
+	min-height: 140px;
+}
+
+.install-products__item + .install-products__item
+{
+	margin-top: 30px;
+}
+
+.install-products__icon
+{
+	width: 54px;
+	height: 54px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+
+	margin-top: 8px;
+}
+
+.install-products__icon img
+{
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.install-products__desc
+{
+	width: calc(100% - 87px);
+	line-height: normal;
+	font-size: 20px;
+	letter-spacing: -.01em;
+}
+
+.install-products__product
+{
+	position: relative;
+	text-decoration: none;
+	display: block;
+	background: #FAFAFA;
+	border-radius: 30px;
+	padding: 50px 67px;
+	color: #051824;
+	transition: color .2s linear;
+}
+
+@media (any-hover: hover)
+{
+    .install-products__product:hover
+    {
+        color: #4DBD3C;
+    }
+}
+
+.install-products__name
+{
+	position: absolute;
+	top: 54px;
+	left: 53px;
+	font-size: 30px;
+	font-weight: 500;
+	display: block;
+	letter-spacing: -.01em;
+	z-index: 1;
+}
+
+.install-products__img
+{
+	display: block;
+	position: relative;
+	padding-bottom: 100%;
+}
+
+.install-products__img img
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display: block;
+
+	width: 100%;
+	height: 100%;
+
+	object-fit: cover;
+}
+
+.install-products__note
+{
+	font-size: 21px;
+	opacity: .65;
+	margin-top: 60px;
+}
 /*------------
     commit
 ------------*/
