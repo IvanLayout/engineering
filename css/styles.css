@@ -4687,6 +4687,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .section-timer__timer
 {
 	margin-top: 45px;
+	align-items: center;
+	align-content: center;
 }
 
 .section-timer__item
@@ -4718,6 +4720,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	font-weight: 500;
 	letter-spacing: -.01em;
 	line-height: normal;
+	margin-top: 24px;
 }
 /*------------
     commit
