@@ -11,6 +11,11 @@
         font-size: 46px;
     }
 
+	.text-block h3
+	{
+		font-size: 34px;
+	}
+
 	.wrap-btn
 	{
 		margin-top: 40px;
@@ -452,6 +457,57 @@
 		border-radius: 24px;
 	}
 
+
+	.install-products .text-block
+	{
+		font-size: 19px;
+	}
+
+	.install-products__item,
+	.install-products__product
+	{
+		border-radius: 24px;
+	}
+
+	.install-products__name
+	{
+		font-size: 28px;
+	}
+
+	.install-products__note,
+	.information__note,
+	.section-result__note
+	{
+		font-size: 19px;
+	}
+
+
+	.information__img
+	{
+		border-radius: 24px;
+	}
+
+
+	.packages__img
+	{
+		border-radius: 24px;
+	}
+
+	.packages__name
+	{
+		font-size: 34px;
+	}
+
+	.packages__price
+	{
+		font-size: 28px;
+	}
+
+	.packages__desc,
+	.packages__job
+	{
+		font-size: 19px;
+	}
 	/*------------
 		commit
 	------------*/

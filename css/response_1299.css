@@ -7,6 +7,12 @@
 		font-size: 44px;
 	}
 
+	.text-block h3 
+	{
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+
 	.text-block p
 	{
 		margin-bottom: 20px;
@@ -311,6 +317,74 @@
 	.solutions__desc
 	{
 		font-size: 19px;
+	}
+
+
+	.install-products__items 
+	{
+		margin-top: 20px;
+	}
+
+	.install-products__item
+	{
+		padding: 30px;
+	}
+
+	.install-products__item + .install-products__item 
+	{
+		margin-top: 20px;
+	}
+
+	.install-products__icon
+	{
+		width: 50px;
+		height: 50px;
+	}
+
+	.install-products__desc
+	{
+		width: calc(100% - 80px);
+	}
+
+	.install-products__product
+	{
+		padding: 40px 50px;
+	}
+
+	.install-products__name
+	{
+		font-size: 26px;
+		top: 40px;
+		left: 45px;
+	}
+
+	.information__item,
+	.information__note,
+	.section-result__note
+	{
+		margin-top: 40px;
+	}
+
+
+	.packages__name
+	{
+		font-size: 30px;
+	}
+
+	.packages__price 
+	{
+		font-size: 26px;
+	}
+
+	.packages__top
+	{
+		margin-top: 25px;
+	}
+
+	.packages__desc, 
+	.packages__job 
+	{
+		font-size: 18px;
 	}
 
 	/*------------

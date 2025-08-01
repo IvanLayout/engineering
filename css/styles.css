@@ -4304,7 +4304,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	width: calc(100% - 87px);
 	line-height: normal;
-	font-size: 20px;
 	letter-spacing: -.01em;
 }
 
