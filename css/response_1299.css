@@ -272,6 +272,7 @@
 	{
 		padding-right: 70px;
 		font-size: 21px;
+		min-height: 51px;
 	}
 
 	.stages__desc
@@ -370,6 +371,17 @@
 	._small-text {
         font-size: 14px;
     }
+	
+
+	.advantages-info__item {
+		border-radius: 24px;
+		padding: 32px 30px 32px 94px;
+	}
+
+	.advantages-info__item::before{
+		left: 20px;
+	}
+	
 
 
 	.footer__coll 

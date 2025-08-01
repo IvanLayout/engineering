@@ -505,4 +505,17 @@
 	.innre-banner__box_pad{
 		padding-bottom: 41px;
 	}
+
+	.section-form__top{
+		margin-bottom: 40px;
+	}
+
+	.advantages-info__grid{
+		margin: 20px 0 0 -20px;
+	}
+
+	.advantages-info__item {
+		margin: 20px 0 0 20px;
+		width: calc(100% / 3 - 20px);
+	}
 }

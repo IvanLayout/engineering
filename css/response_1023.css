@@ -557,6 +557,10 @@
 		width: calc(100% / 2 - 20px);
 		min-height: 330px;
 	}
+	
+	.stages__name br{
+		display: none;
+	}
 
 	.stages__icon
 	{
@@ -823,6 +827,21 @@
 	.innre-banner__colr._small2 {
         width: 45%;
     }
+
+
+	.advantages-info__grid {
+		margin-top: 14px;
+	}
+
+	.advantages-info__item {
+		width: calc(100% / 2 - 20px);
+	}
+
+	.btn-blue {
+		padding: 0 20px;
+		font-size: 16px;
+		line-height: 56px;
+	}
 
 
 	.footer
