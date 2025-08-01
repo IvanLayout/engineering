@@ -2129,6 +2129,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	color: #4DBD3C;
 }
 
+.main-title span._red
+{
+	color: #E52322;
+}
+
 .page-title{
 	font-weight: 500;
 	font-size: 50px;
@@ -4639,6 +4644,80 @@ input[type=checkbox]:checked + .checkbox-btn__text
     {
         color: #4DBD3C;
     }
+}
+
+
+.section-timer__bg
+{
+	margin-top: 50px;
+	border-radius: 30px;
+	padding: 45px 50px 60px;
+	background: #4DBD3C;
+	position: relative;
+	overflow: hidden;
+
+	color: #fff;
+}
+
+.section-timer__title
+{
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -.01em;
+	line-height: normal;
+}
+
+.section-timer__sub-title
+{
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: -.01em;
+	line-height: normal;
+
+	margin-top: 24px;
+}
+
+.section-timer__desc
+{
+	margin-top: 32px;
+	font-size: 21px;
+	letter-spacing: -.01em;
+}
+
+.section-timer__timer
+{
+	margin-top: 45px;
+}
+
+.section-timer__item
+{
+	text-align: center;
+}
+
+.section-timer__item span
+{
+	display: block;
+	font-size: 70px;
+	font-weight: 500;
+	letter-spacing: -.01em;
+	line-height: normal;
+}
+
+.section-timer__text
+{
+	font-size: 28px;
+	letter-spacing: -.01em;
+	line-height: normal;
+	margin-top: -13px;
+}
+
+.section-timer__colon
+{
+	margin: 0 25px;
+	font-size: 56px;
+	font-weight: 500;
+	letter-spacing: -.01em;
+	line-height: normal;
 }
 /*------------
     commit

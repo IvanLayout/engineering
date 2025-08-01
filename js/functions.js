@@ -242,6 +242,34 @@ $(() => {
 			parent.find('.accordion__data').slideDown(300)
 		}
 	})
+
+	const $countdown = $('#countdown');
+    const deadlineStr = $countdown.data('deadline');
+    const deadline = new Date(deadlineStr).getTime();
+
+    const updateTimer = () => {
+    const now = new Date().getTime();
+    const timeLeft = deadline - now;
+
+    if (timeLeft <= 0) {
+        clearInterval(timerInterval);
+        $countdown.text('Время вышло!');
+			return;
+    }
+
+		const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+		const hours = Math.floor((timeLeft / (1000 * 60 * 60)) % 24);
+		const minutes = Math.floor((timeLeft / (1000 * 60)) % 60);
+		const seconds = Math.floor((timeLeft / 1000) % 60);
+
+		$countdown.find('.days').text(String(days).padStart(2, '0'));
+		$countdown.find('.hours').text(String(hours).padStart(2, '0'));
+		$countdown.find('.minutes').text(String(minutes).padStart(2, '0'));
+		$countdown.find('.seconds').text(String(seconds).padStart(2, '0'));
+    };
+
+    const timerInterval = setInterval(updateTimer, 1000);
+    updateTimer(); // запуск одразу
 })
 
 
