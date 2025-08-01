@@ -6164,6 +6164,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 @media (max-width: 1450px)
 {
+	.promotion-banner__title
+	{
+		font-size: 46px;
+	}
+
 	.innre-banner__colr {
 		width: calc(58.02% + 20px);
 		margin-right: -20px;
