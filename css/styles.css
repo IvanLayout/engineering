@@ -4064,9 +4064,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	max-width: 620px;
 }
 
-.solutions__items._nomarg{
-	margin: 0;
+.solutions__coll > * + *
+{
+	margin-top: 40px;
 }
+
 
 .solutions__item
 {
