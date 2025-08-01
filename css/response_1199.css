@@ -670,6 +670,30 @@
 	{
 		margin-top: 20px;
 	}
+
+
+	.promotion-banner__title
+	{
+		font-size: 36px;
+	}
+
+	.promotion-banner__desc
+	{
+		font-size: 21px;
+	}
+
+	.promotion-banner__sticker span
+	{
+		font-size: 19px;
+	}
+
+
+	.promotion-banner__wrap
+	{
+		padding-top: 30px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 	/*------------
 		commit
 	------------*/
