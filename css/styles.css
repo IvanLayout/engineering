@@ -4670,6 +4670,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	position: relative;
 }
 
+.section-timer._small .section-timer__title
+{
+	font-weight: 500;
+}
+
 .section-timer__sub-title
 {
 	font-size: 28px;
@@ -4824,7 +4829,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	position: absolute;
 	bottom: 0;
 	right: 50px;
-	width: 46%;
+	width: 60%;
 	height: 60%;
 	max-width: 316px;
 	max-height: 285px;

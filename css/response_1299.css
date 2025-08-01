@@ -429,6 +429,18 @@
 		margin-right: 15px;
 	}
 
+
+	.promotion-timer__title
+	{
+		font-size: 44px;
+	}
+
+	.promotion-timer__img
+	{
+		max-width: 290px;
+		max-height: 260px;
+	}
+
 	/*------------
 		commit
 	------------*/

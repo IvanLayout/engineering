@@ -712,7 +712,13 @@
 		padding-right: 20px;
 	}
 
-	.section-timer__bg::before
+	.section-timer._small .section-timer__bg
+	{
+		padding: 25px 20px;
+	}
+
+	.section-timer__bg::before,
+	.section-timer._small .section-timer__bg::before
 	{
 		right: -22px;
 		top: 115px;
@@ -730,7 +736,8 @@
 		font-size: 28px;
 	}
 
-	.section-timer__sub-title
+	.section-timer__sub-title,
+	.section-timer._small .section-timer__sub-title
 	{
 		font-size: 17px;
 	}
@@ -740,21 +747,50 @@
 		margin-top: 15px;
 	}
 
-	.section-timer__item span
+	.section-timer__item span,
+	.section-timer._small .section-timer__item span
 	{
 		font-size: 44px;
 	}
 
-	.section-timer__text
+	.section-timer__text,
+	.section-timer._small .section-timer__text
 	{
 		font-size: 17px;
 	}
 
-	.section-timer__colon
+	.section-timer__colon,
+	.section-timer._small .section-timer__colon
 	{
 		font-size: 36px;
 		margin-left: 12px;
 		margin-right: 12px;
+	}
+
+	.promotion-timer__box + .promotion-timer__box
+	{
+		margin-top: 15px;
+	}
+
+	.promotion-timer__bg
+	{
+		padding: 25px 20px 35px;
+	}
+
+	.promotion-timer__title 
+	{
+		font-size: 28px;
+	}
+
+	.promotion-timer__img
+	{
+		right: 10px;
+	}
+
+	.promotion-timer__bg::before
+	{
+		left: -29px;
+		top: -11px;
 	}
 	/*------------
 		commit
