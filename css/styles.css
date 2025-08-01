@@ -4663,11 +4663,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	content: '';
     position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
+    right: -84px;
+    top: -50px;
+    width: 57%;
     max-width: 797px;
-    height: 100%;
+    height: calc(100% + 50px);
     background: url(../images/timer_logo.svg) 0 0 / 100% auto no-repeat;
 	opacity: .1;
 }

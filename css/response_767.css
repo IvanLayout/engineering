@@ -712,6 +712,14 @@
 		padding-right: 20px;
 	}
 
+	.section-timer__bg::before
+	{
+		right: -22px;
+		top: 115px;
+		width: 76%;
+		height: 100%;
+	}
+
 	.section-timer__timer
 	{
 		margin-top: 20px;
