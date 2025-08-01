@@ -4189,21 +4189,17 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 
-.promotion-banner__flex
+.promotion-banner__wrap
 {
 	margin-top: 55px;
-	justify-content: space-between;
-	align-items: stretch;
-
+	padding: 45px 48px 70px;
 	background: #EEF9EC;
 	border-radius: 30px;
 	overflow: hidden;
 	position: relative;
-
-	padding: 44px 0 70px 49px;
 }
 
-.promotion-banner__flex::before
+.promotion-banner__wrap::before
 {
 	content: '';
     position: absolute;
@@ -4216,11 +4212,40 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	opacity: .1;
 }
 
-.promotion-banner__box 
+.promotion-banner__grid
 {
-    width: calc(46% - 15px);
-    position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr; /* две колонки одинаковой ширины */
+	/* grid-template-rows: repeat(2, 1fr); две строки одинаковой высоты */
+	gap: 25px;
+
+	/* grid-template-columns: repeat(2, 1fr); */
+	grid-auto-rows: auto;
 }
+
+.promotion-banner__item
+{
+	position: relative;
+}
+
+.promotion-banner__item:first-child
+{
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.promotion-banner__item:nth-child(2)
+{
+	grid-column: 1;
+	grid-row: 2;
+}
+
+.promotion-banner__item:nth-child(3)
+{
+	grid-column: 2;
+	grid-row: 1 / span 2;
+}
+
 
 .promotion-banner__title
 {
@@ -4237,7 +4262,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 .promotion-banner__desc
 {
-	margin-top: 27px;
 	font-size: 24px;
 	letter-spacing: -.01em;
 	line-height: 1.32;
@@ -4262,17 +4286,25 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	background: #E52322;
 }
 
-.promotion-banner__img
+.promotion-banner__box
 {
-    width: calc(54% - 15px);
-	padding: 0 15px;
+	position: absolute;
+	bottom: -70px;
+	right: 0;
+	width: 100%;
 
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
 	align-content: flex-end;
 	flex-wrap: wrap;
-	margin-bottom: -70px;
+}
+
+.promotion-banner__img
+{
+	display: inline-block;
+
+	text-decoration: none;
 }
 
 .promotion-banner__img img
