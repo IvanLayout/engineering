@@ -22,6 +22,10 @@
 		font-size: 28px;
 	}
 
+	.text-block h2{
+		font-size: 28px;
+	}
+
 	.main-subtitle
 	{
 		margin-top: 20px;
@@ -710,12 +714,17 @@
 		padding: 0 20px;
 	}
 
+
 	.table-wrap::-webkit-scrollbar{
 		display: none;
 	}
 
 	.text-block table{
 		min-width: 908px;
+	}
+
+	.table-wrap_small table{
+		min-width: 797px;
 	}
 
 	.text-block table th{
@@ -726,6 +735,24 @@
 	.text-block table td{
 		font-size: 15px;
 		height: 52px;
+	}
+
+	.table-wrap_small table td{
+		width: 169px;
+	}
+
+	.table-wrap_small table td:first-child{
+		width: auto;
+	}
+
+	.table-wrap__icon{
+		height: 23px;
+	}
+
+	.text-block .table-wrap .prices{
+		width: calc(100% + 20px);
+		margin-left: -10px;
+		margin-right: -10px;
 	}
 
 
