@@ -3298,11 +3298,6 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	align-content: center;
 }
 
-.inner-info__items-marg
-{
-	margin-top: 40px;
-}
-
 .inner-info__item
 {
 	width: calc(100%/2 - 15px);
