@@ -297,10 +297,9 @@
 		font-size: 19px;
 	}
 
-	.solutions__items
+	.solutions__coll > * + *
 	{
 		margin-top: 25px;
-		margin-bottom: 25px;
 	}
 
 	.solutions__item + .solutions__item 
