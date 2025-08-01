@@ -903,6 +903,18 @@
 		font-size: 18px;
 	}
 
+	.advantages-info__item._big
+	{
+		width: calc(100% - 20px);
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+
+	.advantages-info__item._big::before
+	{
+		top: 30px;
+	}
+
 	
 	.footer
 	{

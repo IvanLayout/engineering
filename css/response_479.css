@@ -509,6 +509,12 @@
 		padding-left: 14px;
 		padding-right: 14px;
 	}
+
+
+	.advantages-info__item._big
+	{
+		padding-right: 20px;
+	}
 	/*------------
 		commit
 	------------*/

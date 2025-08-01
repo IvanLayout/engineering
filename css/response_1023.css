@@ -957,7 +957,8 @@
 		margin-top: 14px;
 	}
 
-	.advantages-info__item {
+	.advantages-info__item,
+	.advantages-info__item._big {
 		width: calc(100% / 2 - 20px);
 	}
 

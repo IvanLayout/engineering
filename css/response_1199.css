@@ -17,6 +17,11 @@
 		margin-bottom: 15px;
 	}
 
+	.text-block h4
+	{
+		font-size: 16px;
+	}
+
 	.text-block ul li:before
 	{
 		top: 8px;
@@ -792,6 +797,16 @@
 		width: 44px;
 		height: 44px;
 		top: 30px;
+	}
+
+	.advantages-info__desc
+	{
+		font-size: 16px;
+	}
+
+	.advantages-info__item._big::before
+	{
+		top: 17px;
 	}
 
 
