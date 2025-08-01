@@ -903,6 +903,41 @@ button
     transition: background .2s linear, color .2s linear;
 }
 
+.btn-blue{
+	padding: 0 33px;
+	font-weight: 500;
+	font-size: 21px;
+	letter-spacing: -0.01em;
+	text-align: center;
+	color: #fff;
+    line-height: 70px;
+	display: inline-block;
+	vertical-align: top;
+	background: #051824;
+	border-radius: 12px;
+	transition: background .2s linear;
+}
+
+.btn-blue span{
+	display: inline-block;
+	vertical-align: middle;
+	padding: 16px 0 16px 24px;
+	line-height: normal;
+	position: relative;
+	top: -2px;
+}
+
+.btn-blue span::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 14px;
+	height: 22px;
+	margin-top: -11px;
+	background: url(../images/lightning.svg) 50% no-repeat;
+}
+
 @media (any-hover: hover)
 {
     .btn-green:hover
@@ -916,6 +951,10 @@ button
 
         background: #4DBD3C;
     }
+
+	.btn-blue:hover{
+		background: rgba(5, 24, 36, 0.9);
+	}
 }
 
 
@@ -3861,6 +3900,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	min-height: 435px;
 }
 
+.stages__item._small{
+	min-height: 347px;
+}
+
 .stages__box
 {
 	position: relative;
@@ -3889,6 +3932,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	letter-spacing: -.01em;
 	padding-right: 100px;
 	line-height: 1.2;
+	min-height: 60px;
 }
 
 .stages__desc
@@ -3898,6 +3942,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	opacity: .65;
 	margin-top: 12px;
 	line-height: 1.26;
+}
+
+.stages__item._small .stages__desc{
+	max-width: 345px;
 }
 
 .stages__icon
@@ -3982,6 +4030,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	width: calc(50% - 25px);
 }
 
+.solutions__coll_center{
+	align-self: center;
+}
+
 .solutions__colr 
 {
     width: calc(50% - 15px);
@@ -3997,6 +4049,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	margin: 40px 0;
 	max-width: 620px;
+}
+
+.solutions__items._nomarg{
+	margin: 0;
 }
 
 .solutions__item
@@ -5296,6 +5352,56 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
     transition: opacity .5s linear, visibility .5s linear;
 }
+
+
+.section-form__top{
+	max-width: 892px;
+	margin-bottom: 57px;
+}
+
+
+.advantages-info__grid{
+	margin: 23px 0 0 -30px;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.advantages-info__item{
+	margin: 30px 0 0 30px;
+	width: calc(100%/3 - 30px);
+
+	padding: 32px 38px 32px 127px;
+	background: #4dbd3c;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+	position: relative;
+	min-height: 140px;
+}
+
+.advantages-info__item._big{
+	width: calc(100%/2 - 30px);
+}
+
+.advantages-info__item::before{
+	content: '';
+	position: absolute;
+	left: 37px;
+	top: 39px;
+	width: 57px;
+	height: 57px;
+	background: url(../images/ic_check2.svg) 50%/contain no-repeat;
+}
+
+.advantages-info__name{
+	font-weight: 500;
+	letter-spacing: -0.01em;
+	color: #fff;
+}
+
 
 /*------------
     footer

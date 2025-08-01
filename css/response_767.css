@@ -521,6 +521,10 @@
 		min-height: 1px;
 	}
 
+	.stages__item._small{
+		min-height: 1px;
+	}
+
 	.stages__title 
 	{
 		font-size: 20px;
@@ -590,7 +594,14 @@
 	.solutions__colr
 	{
 		width: 100%;
+	}
+
+	.solutions__coll + .solutions__colr{
 		margin-top: 30px;
+	}
+
+	.solutions__colr + .solutions__coll{
+		margin-top: 36px;
 	}
 	/*------------
 		commit
@@ -778,6 +789,17 @@
 		padding: 4px 10px;
 		min-height: 31px;
 		width: 50%;
+	}
+
+
+	.advantages-info__item{
+		width: calc(100% - 20px);
+		margin-top: 15px;
+		padding-right: 38px;
+	}
+	
+	.advantages-info__name{
+		font-size: 18px;
 	}
 
 	

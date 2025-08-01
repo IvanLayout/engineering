@@ -526,6 +526,7 @@
 	{
 		padding-right: 65px;
 		font-size: 20px;
+		min-height: 48px;
 	}
 
 	.stages__number
@@ -701,6 +702,21 @@
 
 	.product__feature-val{
 		width: 140px;
+	}
+
+	.section-form__top{
+		margin-bottom: 25px;
+	}
+
+	.advantages-info__item {
+		min-height: 104px;
+		padding: 17px 24px 17px 83px;
+	}
+
+	.advantages-info__item::before{
+		width: 44px;
+		height: 44px;
+		top: 30px;
 	}
 
 

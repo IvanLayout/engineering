@@ -376,6 +376,11 @@
 	.stages__name
 	{
 		font-size: 18px;
+		min-height: 44px;
+	}
+
+	.stages__name br{
+		display: inline;
 	}
 
 	.stages__number 
