@@ -667,6 +667,33 @@
 	}
 
 
+	.promotion-banner__grid {
+		gap: 12px 0;
+	}
+
+	.promotion-banner__wrap {
+		padding-top: 22px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.promotion-banner__title {
+		font-size: 24px;
+	}
+
+	.promotion-banner__title br{
+		display: inline;
+	}
+
+	.promotion-banner__box {
+		margin-right: -30px;
+	}
+
+	.promotion-banner__desc{
+		margin-right: -20px;
+	}
+
+
 	.footer__logo
 	{
 		width: 132px;

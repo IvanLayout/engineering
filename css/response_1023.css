@@ -1006,6 +1006,30 @@
 	}
 
 
+	.promotion-banner__item_pad{
+		padding-bottom: 30px;
+	}
+
+	.promotion-banner__title {
+		font-size: 26px;
+	}
+
+	.promotion-banner__desc {
+		font-size: 16px;
+	}
+
+	.promotion-banner__sticker{
+		margin-top: 19px;
+	}
+
+	.promotion-banner__sticker span {
+		font-size: 16px;
+		line-height: 30px;
+		padding: 0 13px;
+	}
+
+
+
 	.footer
 	{
 		padding-top: 40px;
