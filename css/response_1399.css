@@ -578,6 +578,25 @@
 	{
 		font-size: 52px;
 	}
+
+
+	.promotion-timer__title
+	{
+		font-size: 46px;
+	}
+
+	.promotion-timer__bg
+	{
+		border-radius: 24px;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.section-timer._small .section-timer__bg
+	{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
 	/*------------
 		commit
 	------------*/

@@ -528,7 +528,8 @@
 		font-weight: 500;
 	}
 
-	.section-timer__sub-title
+	.section-timer__sub-title,
+	.section-timer._small .section-timer__sub-title
 	{
 		font-size: 16px;
 	}
@@ -543,12 +544,14 @@
 		font-size: 15px;
 	}
 
-	.section-timer__item span
+	.section-timer__item span,
+	.section-timer._small .section-timer__item span
 	{
 		font-size: 40px;
 	}
 
-	.section-timer__text
+	.section-timer__text,
+	.section-timer._small .section-timer__text
 	{
 		font-size: 16px;
 	}
@@ -556,6 +559,17 @@
 	.section-timer__colon
 	{
 		font-size: 32px;
+	}
+
+
+	.promotion-timer__title
+	{
+		font-size: 24px;
+	}
+
+	.promotion-timer__img
+	{
+		max-width: 190px;
 	}
 	/*------------
 		commit
