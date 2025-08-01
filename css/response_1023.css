@@ -17,6 +17,11 @@
 		font-size: 36px;
 	}
 
+	.text-block h3
+	{
+		font-size: 22px;
+	}
+
 	.main-title
 	{
 		font-size: 28px;
@@ -592,6 +597,98 @@
 	.solutions__info
 	{
 		font-size: 16px;
+	}
+
+
+	.install-products .text-block
+	{
+		font-size: 16px;
+	}
+
+	.install-products__col 
+	{
+		width: calc(50% - 10px);
+	}
+
+	.install-products__item
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.install-products__icon
+	{
+		width: 42px;
+		height: 42px;
+		margin-top: 4px;
+	}
+
+	.install-products__desc 
+	{
+		width: calc(100% - 62px);
+	}
+
+	.install-products__product
+	{
+		padding: 30px;
+	}
+
+	.install-products__name 
+	{
+		font-size: 21px;
+		top: 22px;
+		left: 30px;
+	}
+
+	.information__note, 
+	.section-result__note,
+	.install-products__note
+	{
+		margin-top: 30px;
+		font-size: 16px;
+	}
+
+
+	.information__item
+	{
+		margin-top: 30px;
+	}
+
+	.information__box 
+	{
+		width: calc(50% - 10px);
+	}
+	
+
+	.section-result__img + .section-result__desc
+	{
+		margin-top: 25px;
+	}
+
+
+	.packages__items
+	{
+		margin-top: 0;
+	}
+
+	.packages__item 
+	{
+		width: calc(50% - 10px);
+	}
+
+	.packages__name 
+	{
+		font-size: 24px;
+	}
+
+	.packages__price 
+	{
+		font-size: 22px;
+	}
+
+	.packages__desc br
+	{
+		display: none;
 	}
 	/*------------
 		commit

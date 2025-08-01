@@ -12,6 +12,11 @@
 	}
 
 
+	.text-block h3
+	{
+		font-size: 18px;
+	}
+
 	.text-block ul li
 	{
 		padding-left: 20px;
@@ -446,6 +451,63 @@
 		width: auto;
 		font-size: 14px;
 		line-height: 46px;
+	}
+
+
+	.install-products__product 
+	{
+		padding: 25px 82px;
+	}
+
+	.install-products__name 
+	{
+		font-size: 18px;
+		top: 24px;
+		left: 20px;
+	}
+
+	.install-products .text-block p 
+	{
+		line-height: 1.32;
+	}
+
+	.install-products__items 
+	{
+		margin-top: 30px;
+	}
+
+	.install-products__desc
+	{
+		font-size: 16px;
+	}
+
+
+	.information .text-block
+	{
+		font-size: 16px;
+	}
+
+	.information .text-block p
+	{
+		line-height: 1.34;
+	}
+
+	
+	.packages__img
+	{
+		padding-bottom: 56.2%;
+	}
+
+	.packages__name,
+	.packages__price
+	{
+		font-size: 18px;
+	}
+
+	.packages__job
+	{
+		padding-left: 14px;
+		padding-right: 14px;
 	}
 	/*------------
 		commit

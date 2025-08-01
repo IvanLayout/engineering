@@ -6,6 +6,12 @@
 		font-size: 30px;
 	}
 
+	.text-block h3
+	{
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
 
 	.form .form__input
 	{
@@ -615,6 +621,88 @@
 
 	.solutions__colr + .solutions__coll{
 		margin-top: 36px;
+	}
+
+
+	.install-products__col-img,
+	.install-products__col-text
+	{
+		width: 100%;
+	}
+
+	.install-products__col-img
+	{
+		order: 1;
+	}
+
+	.install-products__col-text
+	{
+		order: 2;
+		margin-top: 30px;
+	}
+
+	.install-products__item
+	{
+		min-height: 1px;
+	}
+
+	.install-products__item + .install-products__item
+	{
+		margin-top: 15px;
+	}
+
+	.install-products__cols + .install-products__cols 
+	{
+		margin-top: 35px;
+	}
+
+
+	.information__box
+	{
+		width: 100%;
+	}
+
+	.information__items .information__item:nth-child(even) .information__box:first-child
+	{
+		order: 1;
+	}
+
+	.information .text-block
+	{
+		margin-top: 24px;
+		max-width: 100%;
+	}
+
+	.information__note, 
+	.section-result__note
+	{
+		margin-top: 20px;
+	}
+
+
+	.packages__item
+	{
+		width: 100%;
+	}
+
+	.packages__name 
+	{
+		font-size: 21px;
+	}
+
+	.packages__price 
+	{
+		font-size: 21px;
+	}
+
+	.packages__btn
+	{
+		margin-top: 20px;
+	}
+
+	.packages__link
+	{
+		margin-top: 15px;
 	}
 	/*------------
 		commit
