@@ -2165,19 +2165,9 @@ input[type=checkbox]:checked + .checkbox-btn__text
 /*--------------
     Fancybox
 --------------*/
-.compensate-for-scrollbar
-{
-    padding-right: var(--scroll_width) !important;
-}
-
 .fancybox__backdrop
 {
     background: rgba(0, 0, 0, .6);
-}
-
-.fancybox__content
-{
-    color: #051824;
 }
 
 .fancybox__slide
@@ -2185,63 +2175,38 @@ input[type=checkbox]:checked + .checkbox-btn__text
     padding: 16px;
 }
 
-.fancybox__slide.has-video
+.fancybox__slide.has-html.has-iframe
 {
     padding-top: 60px;
 }
 
-.fancybox__content > .carousel__button.is-close
+.fancybox__slide .f-button[data-fancybox-close]
 {
-    top: 20px;
-    right: 20px;
-
+	top: 15px;
+	right: 15px;
     color: #051824;
 
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-
-    width: 21px;
-    height: 21px;
-    padding: 0;
-
-    border: none;
-    outline: none;
-    background: none;
-    box-shadow: none;
-
-    transition: transform .2s linear, color .2s linear;
+    transition: color .2s linear;
 }
 
 @media (any-hover: hover)
 {
-    .fancybox__content > .carousel__button.is-close:hover
+    .fancybox__slide .f-button[data-fancybox-close]:hover
     {
         color: #4DBD3C;
     }
 }
 
-.fancybox__content > .carousel__button.is-close svg
+.has-iframe.fancybox__slide .f-button[data-fancybox-close]
 {
-    width: 17px;
-    height: 17px;
-
-    outline: none !important;
-
-    fill: none;
-    filter: none;
-    stroke: currentColor;
-    stroke-width: 1px;
-}
-
-.has-video .fancybox__content > .carousel__button.is-close
-{
-    top: -26px;
+    top: -36px;
     right: 0;
 
     color: #FFF;
+}
+
+.has-iframe .f-html{
+	padding: 0;
 }
 
 .fancybox__content :focus
@@ -2261,6 +2226,19 @@ input[type=checkbox]:checked + .checkbox-btn__text
     display: none;
 }
 
+.fancybox__loader {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #444;
+}
 
 
 /*------------------------
@@ -6388,6 +6366,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
     border-radius: 24px;
     background: #FFF;
+	color: #051824;
+}
+
+.modal__wrap{
+	width: 100%;
 }
 
 .modal__title{

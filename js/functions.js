@@ -137,13 +137,8 @@ $(() => {
 
 
 	// Fancybox
-	Fancybox.defaults.autoFocus = false
-	Fancybox.defaults.dragToClose = false
-	Fancybox.defaults.placeFocusBack = false
-
-	Fancybox.defaults.template = {
-		closeButton: '<svg viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L16 16" stroke-linecap="round"/><path d="M16 1L1 16" stroke-linecap="round"/></svg>',
-	}
+	Fancybox.getDefaults().dragToClose = false;
+	Fancybox.getDefaults().placeFocusBack = false;
 
 	// Всплывающие окна
 	$('body').on('click', '.modal-btn', function (e) {
@@ -171,12 +166,6 @@ $(() => {
 		})
 	})
 
-	$('body').on('click', '.modal-close', function (e) {
-		e.preventDefault()
-
-		Fancybox.close()
-	})
-
 
 	// Увеличение картинки
 	Fancybox.bind('.fancy-img', {
@@ -187,6 +176,8 @@ $(() => {
 			autoStart: false,
 		}
 	})
+
+	Fancybox.bind("[data-fancybox-video]", {})
 
 
 	// Выбор файла
