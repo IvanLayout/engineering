@@ -967,6 +967,38 @@
 		top: 30px;
 	}
 
+
+	.promotion-banner__item:first-child{
+		grid-column: 1 / span 2;
+	}
+
+	.promotion-banner__item:nth-child(3)
+	{
+		grid-row: auto;
+	}
+
+
+	.promotion-banner__box{
+		max-width: 300px;
+		margin-left: auto;
+	}
+
+	.promotion-banner__grid {
+   		gap: 16px
+	}
+
+	.promotion-banner__title br{
+		display: none;
+	}
+
+	.promotion-banner__desc {
+		font-size: 15px;
+	}
+
+	.promotion-banner__box{
+		margin-right: -20px;
+	}
+
 	
 	.footer
 	{

@@ -497,6 +497,11 @@
 	.advantages-info__item::before{
 		left: 20px;
 	}
+
+
+	.promotion-banner__item_pad{
+		padding-bottom: 45px;
+	}
 	
 
 
