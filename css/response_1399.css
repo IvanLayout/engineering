@@ -209,10 +209,13 @@
 
     .reviews__item
     {
-        padding: 30px;
-
         border-radius: 24px;
     }
+
+	.reviews__wrap
+	{
+		padding: 30px;
+	}
 
     .reviews__top
     {

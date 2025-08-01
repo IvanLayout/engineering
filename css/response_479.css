@@ -125,12 +125,15 @@
 		font-size: 18px;
 		margin-top: 10px;
 	}
-
-
-	.reviews__item
+	
+	.reviews__wrap
 	{
 		padding: 20px;
-		min-height: 180px;
+	}
+
+	.reviews__video 
+	{
+		padding-bottom: 64.11%;
 	}
 
 	.reviews__top
