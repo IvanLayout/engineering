@@ -515,6 +515,48 @@
 	{
 		padding-right: 20px;
 	}
+
+	
+	.section-timer__timer
+	{
+		margin-top: 15px;
+	}
+
+	.section-timer__title
+	{
+		font-size: 24px;
+		font-weight: 500;
+	}
+
+	.section-timer__sub-title
+	{
+		font-size: 16px;
+	}
+
+	.section-timer__sub-title br
+	{
+		display: none;
+	}
+
+	.section-timer__desc
+	{
+		font-size: 15px;
+	}
+
+	.section-timer__item span
+	{
+		font-size: 40px;
+	}
+
+	.section-timer__text
+	{
+		font-size: 16px;
+	}
+
+	.section-timer__colon
+	{
+		font-size: 32px;
+	}
 	/*------------
 		commit
 	------------*/

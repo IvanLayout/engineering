@@ -694,6 +694,50 @@
 		padding-left: 30px;
 		padding-right: 30px;
 	}
+
+
+	.section-timer__bg
+	{
+		padding: 35px 35px 50px;
+	}
+
+	.section-timer__timer
+	{
+		margin-top: 35px;
+	}
+
+	.section-timer__title
+	{
+		font-size: 40px;
+	}
+
+	.section-timer__sub-title
+	{
+		font-size: 21px;
+		margin-top: 20px;
+	}
+
+	.section-timer__desc
+	{
+		font-size: 16px;
+		margin-top: 25px;
+	}
+
+	.section-timer__item span
+	{
+		font-size: 56px;
+	}
+
+	.section-timer__text
+	{
+		font-size: 21px;
+	}
+
+	.section-timer__colon
+	{
+		font-size: 46px;
+		margin-top: 18px;
+	}
 	/*------------
 		commit
 	------------*/

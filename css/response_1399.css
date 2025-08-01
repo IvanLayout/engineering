@@ -542,6 +542,42 @@
 	{
 		font-size: 21px;
 	}
+
+
+	.section-timer__bg
+	{
+		border-radius: 24px;
+	}
+
+	.section-timer__title
+	{
+		font-size: 46px;
+	}
+
+	.section-timer__sub-title
+	{
+		font-size: 26px;
+	}
+
+	.section-timer__desc
+	{
+		font-size: 19px;
+	}
+
+	.section-timer__item span
+	{
+		font-size: 66px;
+	}
+
+	.section-timer__text
+	{
+		font-size: 26px;
+	}
+
+	.section-timer__colon
+	{
+		font-size: 52px;
+	}
 	/*------------
 		commit
 	------------*/
