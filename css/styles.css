@@ -4659,12 +4659,26 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	color: #fff;
 }
 
+.section-timer__bg::before
+{
+	content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    max-width: 797px;
+    height: 100%;
+    background: url(../images/timer_logo.svg) 0 0 / 100% auto no-repeat;
+	opacity: .1;
+}
+
 .section-timer__title
 {
 	font-size: 50px;
 	font-weight: 700;
 	letter-spacing: -.01em;
 	line-height: normal;
+	position: relative;
 }
 
 .section-timer__sub-title
@@ -4675,6 +4689,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	line-height: normal;
 
 	margin-top: 24px;
+	position: relative;
 }
 
 .section-timer__desc
@@ -4682,6 +4697,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	margin-top: 32px;
 	font-size: 21px;
 	letter-spacing: -.01em;
+	position: relative;
 }
 
 .section-timer__timer
@@ -4689,6 +4705,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	margin-top: 45px;
 	align-items: center;
 	align-content: center;
+	position: relative;
 }
 
 .section-timer__item
