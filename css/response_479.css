@@ -48,6 +48,11 @@
 		letter-spacing: -.01em;
 	}
 
+	.text-block h2{
+		font-size: 24px;
+		letter-spacing: -0.02em;
+	}
+
 
 	.slider-pagination._bot-abs
 	{
