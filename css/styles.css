@@ -3204,6 +3204,18 @@ input[type=checkbox]:checked + .checkbox-btn__text
     }
 }
 
+
+.badge-rating
+{
+	display: inline-block;
+	padding: 5px 0;
+}
+
+.badge-rating iframe
+{
+	/* display: inline-block; */
+	vertical-align: top;
+}
 /*------------
     main-form
 ------------*/
@@ -4095,6 +4107,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .solutions__colr 
 {
     width: calc(50% - 15px);
+}
+
+.solutions__colr-img
+{
+	width: calc(45% - 15px);
 }
 
 .solutions__info

@@ -247,7 +247,7 @@
 
         width: 100%;
         height: calc(100% - 82px);
-		padding: 15px 0 130px;
+		padding: 0 0 130px;
 
         pointer-events: none;
 

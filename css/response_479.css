@@ -374,6 +374,11 @@
 		font-size: 14px;
 	}
 
+	.articles__box 
+	{
+		padding-right: 45px;
+	}
+
 
 	.stages__title
 	{
@@ -635,6 +640,11 @@
 
 	.catalog__name{
 		font-size: 14px;
+	}
+
+	.catalog__img
+	{
+		padding-bottom: 54%;
 	}
 
 
