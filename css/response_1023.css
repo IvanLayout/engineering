@@ -39,7 +39,11 @@
 
 	.header-mob
 	{
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		flex-wrap: wrap;
 		height: 82px;
 
 		position: fixed;
@@ -47,12 +51,12 @@
 		top: 0;
 		left: 0;
 		width: 100%;
-		min-width: 405px;
 	}
 
 	.header-mob__logo
 	{
 		width: 132px;
+		margin-right: 16px;
 	}
 
 	.header-mob__phone
@@ -114,7 +118,7 @@
 		line-height: 45px;
 		margin-left: 15px;
 		width: calc(50% - 15px);
-		padding: 0 15px;
+		padding: 0;
 	}
 
 	.mob-menu
@@ -146,7 +150,6 @@
         flex-wrap: nowrap;
 
         width: 100%;
-		min-width: 405px;
         padding: 19px 20px 18px;
 		border-radius: 24px 24px 0 0;
 
@@ -880,11 +883,11 @@
 		display: none;
 	}
 
-	.text-block table{
+	.text-block .table-wrap table{
 		min-width: 908px;
 	}
 
-	.table-wrap_small table{
+	.text-block .table-wrap_small table{
 		min-width: 797px;
 	}
 
@@ -914,6 +917,70 @@
 		width: calc(100% + 20px);
 		margin-left: -10px;
 		margin-right: -10px;
+	}
+
+	.table-line table thead{
+		display: none;
+	}
+
+	.table-line table tr{
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		align-content: flex-start;
+		flex-wrap: wrap;
+
+		padding: 7px 5px;
+		border: 1px solid rgba(5, 24, 36, .3);
+	}
+
+	.table-line table tr + tr{
+		margin-top: -1px;
+	}
+
+	.table-line table tr::before{
+		content: attr(data-line);
+		display: block;
+
+		font-weight: 400;
+		font-size: 15px;
+		letter-spacing: -0.02em;
+		color: rgba(5, 24, 36, 0.5);
+		width: 100%;
+		padding: 6px 10px;
+	}
+
+	.table-line table td{
+		display: block;
+		width: 25%;
+		height: auto;
+		border: none;
+		padding: 6px 10px;
+	}
+
+	.table-line table td.td-first{
+		width: 50%;
+		order: -1;
+	}
+
+	.table-line table td.td-second{
+		width: 50%;
+		order: -1;
+	}
+
+	.table-line table td::before{
+		content: attr(data-label);
+		display: block;
+		width: 100%;
+		font-weight: 400;
+		font-size: 13px;
+		letter-spacing: -0.02em;
+		color: rgba(5, 24, 36, 0.5);
+		margin-bottom: 4px;
+	}
+
+	.table-line table td br{
+		display: none;
 	}
 
 

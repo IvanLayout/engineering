@@ -76,6 +76,30 @@
 	}
 
 
+	.wrap{
+		padding-top: 65px;
+	}
+
+	.header {
+		top: 65px;
+	}
+
+	.header-mob{
+		height: 65px;
+		padding-top: 13px;
+		padding-bottom: 13px;
+	}
+
+	.header-mob__logo{
+		width: 100px;
+	}
+
+	.header-mob__socials-link {
+		width: 35px;
+		height: 35px;
+	}
+
+
 	.first-section__wrap
 	{
 		padding-bottom: 278px;
@@ -733,5 +757,35 @@
 	.modal{
 		padding-left: 24px;
 		padding-right: 24px;
+	}
+}
+
+@media (max-width: 400px)
+{
+	.wrap{
+		padding-bottom: 70px;
+	}
+
+	.fix-btns{
+		padding-top: 12px;
+		padding-bottom: 8px;
+	}
+
+	.fix-btns__btn-icon{
+		height: 26px;
+	}
+
+	.fix-btns__btn-icon svg{
+		width: 26px;
+		height: 26px;
+	}
+
+	.fix-btns__btn-name {
+		font-size: 13px;
+	}
+
+	.header-mob__phone {
+		font-size: 12px;
+		white-space: nowrap;
 	}
 }

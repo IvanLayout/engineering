@@ -1035,6 +1035,11 @@
 		margin-right: -20px;
 	}
 
+
+	.table-line table td{
+		width: 50%;
+	}
+
 	
 	.footer
 	{

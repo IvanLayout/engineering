@@ -801,6 +801,7 @@ button
     justify-content: flex-start;
     align-content: center;
     align-items: center;
+	flex-wrap: nowrap;
 
     margin-left: 10px;
 }
@@ -814,6 +815,7 @@ button
 {
     width: 40px;
     height: 40px;
+	flex-shrink: 0;
 }
 
 .header-mob__socials-link img
@@ -1148,6 +1150,10 @@ button
 }
 
 .text-block .table-wrap{
+	margin-bottom: 30px;
+}
+
+.text-block .table-line{
 	margin-bottom: 30px;
 }
 
