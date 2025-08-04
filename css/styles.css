@@ -1159,7 +1159,8 @@ button
 }
 
 .text-block table th{
-	border: 1px solid #ecf0f8;
+	/* border: 1px solid #ecf0f8; */
+	border: 1px solid rgba(5, 24, 36, .3);
 
 	font-weight: 400;
 	letter-spacing: -0.02em;
@@ -1176,7 +1177,9 @@ button
 
 .text-block table td{
 	height: 68px;
-	border: 1px solid #ecf0f8;
+	/* border: 1px solid #ecf0f8; */
+	border: 1px solid rgba(5, 24, 36, .3);
+
 	padding: 9px 28px;
 
 	letter-spacing: -0.02em;
@@ -1235,6 +1238,11 @@ button
 	font-weight: 500;
 	color: #4dbd3c;
 	display: inline-block;
+}
+
+.text-block .prices__red
+{
+	color: #E52322;
 }
 
 
