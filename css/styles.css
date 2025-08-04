@@ -425,12 +425,13 @@ button
 ------------*/
 .header
 {
-    position: relative;
+    position: sticky;
     z-index: 99;
     top: 0;
     left: 0;
 
     width: 100%;
+    background: #fff;
 }
 
 .header__top
@@ -734,6 +735,7 @@ button
 {
     align-content: center;
     align-items: center;
+    flex-wrap: nowrap;
 }
 
 .header-mob__logo
