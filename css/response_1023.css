@@ -938,7 +938,7 @@
 		margin-top: -1px;
 	}
 
-	.table-line table tr::before{
+	.table-line table .middle-title::before{
 		content: attr(data-line);
 		display: block;
 
@@ -968,6 +968,10 @@
 		order: -1;
 	}
 
+	.table-line table td.td-big{
+		width: 100%;
+	}
+
 	.table-line table td::before{
 		content: attr(data-label);
 		display: block;
@@ -981,6 +985,14 @@
 
 	.table-line table td br{
 		display: none;
+	}
+
+	.text-block table ._center{
+		text-align: left;
+	}
+
+	.table-wrap__icon{
+		justify-content: flex-start;
 	}
 
 
