@@ -668,4 +668,28 @@
 	{
 		font-size: 17px;
 	}
+
+
+	.key-factors__desc{
+		margin-top: 30px;
+		font-size: inherit;
+	}
+
+	.brigadiers__grid_marg{
+		margin-top: 17px;
+	}
+
+	.designing__desc{
+		margin-top: 30px;
+		font-size: inherit;
+	}
+
+
+	.designing__item{
+		padding: 30px
+	}
+
+	.designing__img{
+		margin-right: 20px;
+	}
 }

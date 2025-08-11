@@ -514,6 +514,17 @@
 	.promotion-banner__item_pad{
 		padding-bottom: 45px;
 	}
+
+
+
+	.designing__item {
+		width: calc(100% / 2 - 10px);
+		margin-top: 20px;
+	}
+
+	.designing__img {
+    	width: 41%;
+	}
 	
 
 

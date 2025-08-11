@@ -564,6 +564,7 @@
 	.section-info__coll
 	{
 		width: 100%;
+		max-width: none;
 	}
 
 	.section-info__cols._reverse .section-info__coll{
@@ -574,6 +575,7 @@
 	.section-info__colr
 	{
 		width: 100%;
+		max-width: none;
 		margin-top: 30px;
 	}
 
@@ -1038,6 +1040,40 @@
 
 	.table-line table td{
 		width: 50%;
+	}
+
+
+	.designing__item{
+		width: 100%;
+		margin-top: 15px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.designing__name{
+		max-width: none;
+		font-size: 16px;
+	}
+
+
+	.table-block table th{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 12px;
+	}
+
+	.table-block table td{
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 12px;
+	}
+
+	.table-block table ._center {
+		text-align: center;
+	}
+
+	.table-block .prices{
+		white-space: wrap;
 	}
 
 	

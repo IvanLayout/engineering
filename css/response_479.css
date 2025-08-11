@@ -741,6 +741,24 @@
 		margin-right: -20px;
 	}
 
+	.key-factors__item {
+		padding-right: 20px;
+	}
+
+	.key-factors__info {
+		width: calc(100% - 58px);
+	}
+
+
+	.designing__img {
+		width: 47.7%;
+	}
+
+
+	.table-block table td{
+		font-size: 11px;
+	}
+
 
 	.footer__logo
 	{

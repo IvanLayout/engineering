@@ -995,6 +995,14 @@
 		justify-content: flex-start;
 	}
 
+	.table-block table ._center{
+		text-align: center;
+	}
+
+	.table-block .table-wrap__icon{
+		justify-content: center;
+	}
+
 
 	.catalog__sticker{
 		left: 15px;
@@ -1134,6 +1142,24 @@
 		padding: 0 13px;
 	}
 
+
+
+	.designing__grid{
+		margin-top: 16px;
+	}
+
+	.designing__item{
+		padding: 20px 15px;
+		border-radius: 24px;
+	}
+
+	.designing__img {
+		margin-right: 15px;
+	}
+
+	.designing__img span{
+		border-radius: 18px;
+	}
 
 
 	.footer
