@@ -5326,6 +5326,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 }
 
 
+.norms-standards .main-subtitle
+{
+	max-width: 945px;
+}
+
 .norms-standards__grid
 {
     justify-content: space-between;
