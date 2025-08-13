@@ -806,4 +806,23 @@
 		font-size: 12px;
 		white-space: nowrap;
 	}
+
+	.table-block table th {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 11px;
+	}
+
+	.table-block table td {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.table-block .table-wrap__icon{
+		height: 18px;
+	}
+
+	.text-block .price{
+		white-space: normal;
+	}
 }

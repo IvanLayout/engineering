@@ -1245,6 +1245,7 @@ button
 	font-weight: 500;
 	color: #4dbd3c;
 	display: inline-block;
+    white-space: nowrap;
 }
 
 .text-block .prices__red
@@ -2176,6 +2177,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
     margin-top: 25px;
 
     letter-spacing: -.01em;
+}
+
+.main-subtitle_small{
+    max-width: 890px;
 }
 
 
@@ -3300,6 +3305,10 @@ input[type=checkbox]:checked + .checkbox-btn__text
     font-size: 20px;
 
     margin: 24px 0 28px;
+}
+
+.main-form__desc span{
+    display: block;
 }
 
 
