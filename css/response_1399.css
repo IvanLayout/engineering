@@ -599,6 +599,11 @@
 	}
 
 
+	.page-product__item
+	{
+		font-size: 19px;
+	}
+
 	.page-product__img
 	{
 		padding-top: 50px;
@@ -635,6 +640,7 @@
 		padding-top: 30px;
 		padding-bottom: 50px;
 	}
+	
 	/*------------
 		commit
 	------------*/

@@ -759,6 +759,33 @@
 	}
 
 
+	.page-product__bg
+	{
+		margin-top: 15px;
+	}
+
+	.page-product__block-wrap
+	{
+		margin-right: 20px;
+	}
+
+	.page-product__block
+	{
+		overflow-x: auto;
+		width: calc(100% + 20px);
+		margin-right: -20px;
+	}
+
+	.page-product__items
+	{
+		flex-wrap: nowrap;
+	}
+
+	.page-product__item 
+	{
+		font-size: 15px;
+	}
+
 	.page-product__box
 	{
 		width: 40%;

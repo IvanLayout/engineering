@@ -823,6 +823,12 @@
 		width: 100%;
 	}
 
+	.page-product__item a
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	.product-feature
 	{
 		width: 100%;
@@ -1130,8 +1136,6 @@
 		border-radius: 10px;
 		align-items: stretch;
 		align-content: stretch;
-
-		overflow-y: auto;
 	}
 
 	.tabs__btn{
@@ -1140,8 +1144,6 @@
 		padding: 4px 10px;
 		min-height: 31px;
 		width: 50%;
-
-		white-space: nowrap;
 	}
 
 

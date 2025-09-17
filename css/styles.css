@@ -4976,6 +4976,67 @@ input[type=checkbox]:checked + .checkbox-btn__text
     page-product
 ------------*/
 
+.page-product__block
+{
+	margin-top: 40px;
+	
+	
+}
+
+.page-product__block-wrap
+{
+	display: inline-block;
+	background: #EEF9EC;
+	padding: 10px;
+	border-radius: 12px;
+}
+
+.page-product__items
+{
+	align-items: stretch;
+	align-content: stretch;
+
+	
+	
+	
+	
+	margin-top: -10px;
+}
+
+.page-product__item
+{
+	font-size: 21px;
+	font-weight: 500;
+	margin-top: 10px;
+}
+
+.page-product__item a
+{
+	color: #4DBD3C;
+	white-space: nowrap;
+	display: block;
+	text-decoration: none;
+	line-height: 50px;
+	padding: 0 40px;
+	transition: color .2s linear;
+}
+
+@media (any-hover: hover)
+{
+    .page-product__item a:hover
+	{
+		color: #051824;
+	}
+}
+
+.page-product__item a._active
+{
+	color: #fff;
+	background: #4DBD3C;
+	border-radius: 12px;
+}
+
+
 .page-product__bg
 {
 	background: #F8F8F8;

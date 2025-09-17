@@ -793,11 +793,33 @@
 		margin-top: 20px;
 	}
 
+	.page-product__block-wrap
+	{
+		border-radius: 10px;
+		padding: 8px;
+	}
+
+	.page-product__item 
+	{
+		font-size: 17px;
+	}
+
+	.page-product__item a
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+		line-height: 40px;
+	}
+
+	.page-product__item a._active
+	{
+		border-radius: 8px;
+	}
+
 	.page-product__bg
 	{
 		padding-top: 36px;
 		padding-bottom: 36px;
-		margin-top: 30px;
 	}
 
 	.product-feature__title

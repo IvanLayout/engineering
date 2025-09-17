@@ -619,9 +619,21 @@
 	}
 	
 
-	.page-product__bg
+	.page-product__block-wrap
 	{
-		margin-top: 15px;
+		padding: 6px;
+	}
+
+	.page-product__item
+	{
+		font-size: 14px;
+	}
+
+	.page-product__item a
+	{
+		padding-left: 18px;
+		padding-right: 18px;
+		line-height: 31px;
 	}
 
 	.page-product__img
