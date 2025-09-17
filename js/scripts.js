@@ -207,16 +207,16 @@ $(() => {
 				prevEl: '.slider-button-prev'
 			},breakpoints: {
 				'320': {
-					spaceBetween: 20,
-					slidesPerView: 'auto'
+					spaceBetween: 15,
+					slidesPerView: 3
 				},
 				'480': {
-					spaceBetween: 20,
-					slidesPerView: 'auto'
+					spaceBetween: 15,
+					slidesPerView: 3
 				},
 				'768': {
 					spaceBetween: 20,
-					slidesPerView: 2,
+					slidesPerView: 3,
 				},
 				'1024': {
 					spaceBetween: 20,

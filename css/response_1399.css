@@ -597,6 +597,44 @@
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+
+
+	.page-product__img
+	{
+		padding-top: 50px;
+	}
+
+	.product-feature 
+	{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+	.page-product__link
+	{
+		padding: 30px;
+	}
+
+	.page-product__old-price
+	{
+		font-size: 22px;
+	}
+
+	.page-product__price
+	{
+		font-size: 38px;
+	}
+
+	.guarantees__number
+	{
+		font-size: 80px;
+	}
+
+	.guarantees__item
+	{
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
 	/*------------
 		commit
 	------------*/

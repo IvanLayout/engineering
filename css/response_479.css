@@ -600,6 +600,132 @@
 	{
 		max-width: 190px;
 	}
+
+
+	.page-top
+	{
+		margin-top: 10px;
+	}
+
+	.breadcrumbs 
+	{
+		font-size: 12px;
+	}
+
+	.breadcrumbs_sep
+	{
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+	
+
+	.page-product__bg
+	{
+		margin-top: 15px;
+	}
+
+	.page-product__img
+	{
+		padding-top: 36px;
+		/* height: 220px; */
+		aspect-ratio: 365 / 217;
+	}
+
+	.product-feature__title
+	{
+		font-size: 18px;
+	}
+
+	.product-feature__lines
+	{
+		margin-top: 11px;
+		font-size: 16px;
+	}
+
+	.page-product__bot
+	{
+		margin-top: 17px;
+	}
+
+	.page-product__old-price
+	{
+		font-size: 16px;
+	}
+
+	.page-product__price
+	{
+		font-size: 21px;
+		margin-left: 12px;
+	}
+
+
+	.page-product__link
+	{
+		width: calc(50% - 7.5px);
+	}
+
+
+	.text-block__mob
+	{
+		font-size: 16px;
+	}
+
+
+	.adv-small__icon
+	{
+		height: 44px;
+		width: 44px;
+	}
+
+	.adv-small__name
+	{
+		font-size: 16px;
+	}
+
+
+	.guarantees__img img 
+	{
+		width: 193px;
+		height: 253px;
+	}
+
+	.guarantees__item
+	{
+		padding: 23px 20px;
+	}
+
+	.guarantees__number
+	{
+		font-size: 32px;
+	}
+
+
+	.videos__box .videos__video span 
+	{
+		padding-bottom: 64.11%;
+	}
+
+
+	.delivery__bg
+	{
+		top: auto;
+		bottom: -154px;
+		left: auto;
+		right: -50px;
+	}
+
+	.delivery__bg img
+	{
+		width: 333px;
+		height: 437px;
+	}
+
+	.delivery__phone a
+	{
+		line-height: 54px;
+		width: 100%;
+		text-align: center;
+	}
 	/*------------
 		commit
 	------------*/

@@ -419,6 +419,11 @@
 		min-height: 1px;
 	}
 
+	.section-grid__item._small
+	{
+		min-height: 1px;
+	}
+
 	.section-grid__icon
 	{
 		width: 64px;
@@ -780,6 +785,106 @@
 	.promotion-timer__sticker span
 	{
 		font-size: 20px;
+	}
+
+	
+	.page-top
+	{
+		margin-top: 20px;
+	}
+
+	.page-product__bg
+	{
+		padding-top: 36px;
+		padding-bottom: 36px;
+		margin-top: 30px;
+	}
+
+	.product-feature__title
+	{
+		font-size: 21px;
+	}
+
+	.product-feature__lines
+	{
+		margin-top: 20px;
+	}
+
+
+	.page-product__old-price 
+	{
+		font-size: 21px;
+	}
+
+	.page-product__price 
+	{
+		font-size: 34px;
+	}
+
+
+	.page-product__link + .page-product__link
+	{
+		margin-top: 20px;
+	}
+
+	.page-product__link 
+	{
+		padding: 25px;
+		font-size: 18px;
+	}
+
+
+	.adv-small__item
+	{
+		padding: 30px;
+	}
+
+	.adv-small__icon
+	{
+		width: 60px;
+		height: 60px;
+	}
+
+	.adv-small__desc
+	{
+		margin-top: 30px;
+		font-size: 17px;
+	}
+
+
+	.guarantees__items
+	{
+		margin-top: 0;
+	}
+
+	.guarantees__item
+	{
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-bottom: 40px;
+	}
+
+	.guarantees__number
+	{
+		font-size: 60px;
+	}
+
+	.guarantees__desc
+	{
+		font-size: 21px;
+	}
+
+
+	.delivery 
+	{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	.delivery__text,
+	.delivery__phone a
+	{
+		font-size: 17px;
 	}
 	/*------------
 		commit

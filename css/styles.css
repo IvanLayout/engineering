@@ -967,11 +967,6 @@ button
     margin-top: 80px;
 }
 
-._marg2
-{
-	margin-top: 120px;
-}
-
 ._pad
 {
     padding: 80px 0;
@@ -5108,6 +5103,8 @@ input[type=checkbox]:checked + .checkbox-btn__text
 	display: flex;
 	align-items: flex-end;
 	align-content: flex-end;
+
+	margin-top: 30px;
 }
 
 .page-product__old-price
@@ -5354,8 +5351,9 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .delivery__bg img
 {
 	display: block;
-	width: 960px;
-	height: 1258px;
+	/* width: 960px;
+	height: 1258px; */
+	min-height: 220px;
 }
 
 .delivery__info
@@ -5409,6 +5407,7 @@ input[type=checkbox]:checked + .checkbox-btn__text
 {
 	display: block;
 	max-width: 100%;
+	min-width: 41px;
 }
 /*------------
     commit
@@ -6195,6 +6194,11 @@ input[type=checkbox]:checked + .checkbox-btn__text
 .videos__grid{
 	margin-top: -30px;
 	justify-content: space-between;
+}
+
+.videos__grid.videos__grid-inner
+{
+	margin-top: 0;
 }
 
 .videos__video{
@@ -7125,5 +7129,17 @@ input[type=checkbox]:checked + .checkbox-btn__text
 
 	._small-text{
 		font-size: 16px;
+	}
+
+
+	.delivery__img
+	{
+		right: 15px;
+	}
+
+	.product-feature
+	{
+		padding-left: 35px;
+		padding-right: 35px;
 	}
 }

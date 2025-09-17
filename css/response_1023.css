@@ -757,6 +757,102 @@
 		line-height: 30px;
 		padding: 0 13px;
 	}
+
+
+	.page-product__box
+	{
+		width: 40%;
+	}
+
+	.product-feature
+	{
+		width: 60%;
+		padding-left: 20px;
+		padding-right: 0;
+	}
+
+	.page-product__old-price 
+	{
+		font-size: 19px;
+	}
+
+	.page-product__price
+	{
+		font-size: 30px;
+	}
+
+	.page-product__info
+	{
+		width: 100%;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: stretch;
+		align-content: stretch;
+		flex-wrap: wrap;
+		margin-top: 30px;
+	}
+
+	.page-product__link
+	{
+		width: calc(50% - 10px);
+		flex-grow: inherit;
+	}
+	
+	.page-product__link + .page-product__link
+	{
+		margin-top: 0;
+	}
+
+
+	.adv-small__item,
+	.guarantees__item
+	{
+		width: calc(100% / 2 - 20px);
+	}
+
+
+	.guarantees__number
+	{
+		font-size: 50px;
+	}
+
+	.guarantees__desc
+	{
+		font-size: 19px;
+	}
+
+
+	.videos__box .videos__video 
+	{
+		margin-top: 25px;
+	}
+
+
+	.delivery__bg
+	{
+		top: 0;
+	}
+
+	.delivery__bg img
+	{
+		height: 700px;
+	}
+
+	.delivery__text
+	{
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
+	.delivery__phone
+	{
+		margin-top: 25px;
+	}
+
+	.delivery__phone a
+	{
+		font-size: 16px;
+	}
 	/*------------
 		commit
 	------------*/
